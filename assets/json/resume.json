@@ -1,221 +1,375 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Zephyr Sylvester, Ph.D.",
+    "label": "Postdoctoral Researcher",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "zephyr.sylvester@colorado.edu",
+    "summary": "Antarctic marine ecologist studying the physical and biological drivers of Southern Ocean ecosystem change, with expertise in krill habitat modeling, climate-ecosystem interactions, and international science-policy engagement.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Santa Cruz",
+      "region": "California",
+      "countryCode": "US"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/zephyr-sylvester/"
+      }
+    ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
-    },
-    {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
-    },
-    {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
+      "name": "University of Colorado Boulder",
+      "position": "Postdoctoral Researcher, MAC3 Antarctic Fellow",
+      "startDate": "2025-01-01",
       "summary": "",
       "highlights": []
     },
     {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
+      "name": "University of Colorado Boulder",
+      "position": "Graduate Research Assistant",
+      "startDate": "2018-01-01",
+      "endDate": "2025-01-01",
       "summary": "",
       "highlights": []
     },
     {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
+      "name": "San Francisco Estuary Institute (SFEI)",
+      "position": "Environmental Analyst I & II",
+      "startDate": "2015-01-01",
+      "endDate": "2018-01-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "Salmon Protection and Watershed Network (SPAWN)",
+      "position": "Salmonid Monitoring and Restoration Technician",
+      "startDate": "2014-01-01",
+      "endDate": "2015-01-01",
       "summary": "",
       "highlights": []
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "SCAR Krill Expert Group (SKEG)",
+      "position": "Communications and Outreach",
+      "startDate": "2024-01-01",
+      "summary": "Scientific Committee on Antarctic Research (SCAR)",
+      "highlights": []
+    },
+    {
+      "organization": "SCAR Krill Expert Group (SKEG)",
+      "position": "Early Career Researcher Representative, Steering Board",
+      "startDate": "2021-01-01",
+      "endDate": "2024-01-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "Expert Group on Antarctic Biodiversity Informatics (EG-ABI), SCAR",
+      "position": "Secretary",
+      "startDate": "2021-01-01",
+      "endDate": "2024-01-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "Environmental Studies Graduate Assembly, University of Colorado Boulder",
+      "position": "Executive Committee Chair",
+      "startDate": "2020-01-01",
+      "endDate": "2022-01-01",
+      "summary": "Environmental Studies Program",
+      "highlights": []
+    },
+    {
+      "organization": "Environmental Studies Program, University of Colorado Boulder",
+      "position": "Colloquium Committee Co-Chair",
+      "startDate": "2019-01-01",
+      "endDate": "2022-01-01",
+      "summary": "",
+      "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
-    },
-    {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
+      "institution": "University of Colorado Boulder",
+      "area": "Environmental Studies",
+      "studyType": "Ph.D.",
+      "startDate": "2020-01-01",
+      "endDate": "2025-01-01",
       "score": "",
       "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
+      "highlights": [
+        "Dissertation: From Climate Trends to Krill Habitat: Modeling the Physical and Biological Drivers of Antarctic Ecosystem Change"
+      ]
+    },
+    {
+      "institution": "University of Colorado Boulder",
+      "area": "Environmental Studies",
+      "studyType": "M.Sc.",
+      "startDate": "2018-01-01",
+      "endDate": "2020-01-01",
+      "score": "",
+      "courses": [],
+      "highlights": [
+        "Thesis: Detecting Climate Signals in Southern Ocean Krill Growth Habitat"
+      ]
+    },
+    {
+      "institution": "Whitman College",
+      "area": "Biology",
+      "studyType": "B.A.",
+      "startDate": "2009-01-01",
+      "endDate": "2013-01-01",
+      "score": "",
+      "courses": [],
+      "highlights": [
+        "Thesis: Reassessment of Queen Conch (Strombus gigas) population in the East Harbor Lobster and Conch Reserve off of South Caicos Island"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    },
-    {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
+      "title": "Excellence in Service Award",
+      "date": "2022-01-01",
+      "awarder": "Department of Environmental Studies, University of Colorado Boulder",
       "summary": ""
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
+      "title": "CCAMLR Scholarship",
+      "date": "2021-01-01",
+      "awarder": "Commission for the Conservation of Antarctic Marine Living Resources (CCAMLR)",
+      "summary": ""
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrodynamik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Polynyas as Seasonal and Overwintering Hotspots: Present and Future Roles in Southern Ocean Mesozooplankton Productivity",
+      "publisher": "Global Change Biology",
+      "releaseDate": "2026-01-01",
+      "summary": "Sylvester, Z., DuVivier, A. K., Krumhardt, K. M., Landrum, L., and Brooks, C. (forthcoming)"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Adjusting management of the Antarctic krill fishery to the challenges of the 21st century",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "releaseDate": "2025-09-08",
+      "url": "https://doi.org/10.1073/pnas.2412624122",
+      "summary": "Meyer, B., Arata, J. A., Atkinson, A., ... Sylvester, Z., et al."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Modelled connectivity of Antarctic krill spawning and nursery grounds along the Western Antarctic Peninsula",
+      "publisher": "Marine Ecology Progress Series",
+      "releaseDate": "2025-12-31",
+      "url": "https://doi.org/10.3354/meps15059",
+      "summary": "Sylvester, Z., Dinniman, M., Thorpe, S., Bernard, K., and Brooks, C."
+    },
+    {
+      "name": "Untangling the Complexities of Larval Antarctic Krill Overwintering Success Under Climate Change",
+      "publisher": "ICES Journal of Marine Science",
+      "releaseDate": "2025-03-31",
+      "url": "https://doi.org/10.1093/icesjms/fsaf049",
+      "summary": "Sylvester, Z., Veytia, D., Bahl, A., Bahlburg, D., Raymond, B., et al."
+    },
+    {
+      "name": "Quantifying the Present and Future Value for Antarctic Ecosystems from Phytoplankton to Penguins",
+      "publisher": "Nature Communications",
+      "releaseDate": "2025-01-01",
+      "summary": "DuVivier, A. K., Krumhardt, K. M., Landrum, L., Sylvester, Z., Sen, B., and Labrousse, S. (in review)"
+    },
+    {
+      "name": "Defining Antarctic Polynyas in Satellite Observations and Climate Model Output to Support Ecological Climate Change Research",
+      "publisher": "EGUsphere",
+      "releaseDate": "2025-01-01",
+      "url": "https://doi.org/10.5194/egusphere-2024-3490",
+      "summary": "Landrum, L. L., DuVivier, A. K., Holland, M. M., Krumhardt, K., and Sylvester, Z. (in review)"
+    },
+    {
+      "name": "Whale Recovery and the Emerging Human-Wildlife Conflict over Antarctic Krill",
+      "publisher": "Nature Communications",
+      "releaseDate": "2024-09-10",
+      "url": "https://doi.org/10.1038/s41467-024-51954-x",
+      "summary": "Savoca, M. S., Kumar, M., Sylvester, Z., Czapanskiy, M. F., Meyer, B., Goldbogen, J. A., and Brooks, C. M."
+    },
+    {
+      "name": "Observing Change in Pelagic Animals as Sampling Methods Shift: The Case of Antarctic Krill",
+      "publisher": "Frontiers in Marine Science",
+      "releaseDate": "2024-03-08",
+      "url": "https://doi.org/10.3389/fmars.2024.1307402",
+      "summary": "Hill, S. L., Atkinson, A., ... Sylvester, Z. T., et al."
+    },
+    {
+      "name": "Managing for Climate Resilient Fisheries: Applications to the Southern Ocean",
+      "publisher": "Ocean & Coastal Management",
+      "releaseDate": "2023-05-15",
+      "url": "https://doi.org/10.1016/j.ocecoaman.2023.106580",
+      "summary": "Chavez-Molina, V., Nocito, E. S., Carr, E., Cavanagh, R. D., Sylvester, Z., et al."
+    },
+    {
+      "name": "Connections to Tidal Marsh and Restored Salt Ponds Drive Seasonal and Spatial Variability in Ecosystem Metabolic Rates in Lower South San Francisco Bay",
+      "publisher": "Estuaries and Coasts",
+      "releaseDate": "2022-12-01",
+      "url": "https://doi.org/10.1007/s12237-022-01088-4",
+      "summary": "Roberts, D., MacVean, L., Holleman, R., Chelsky, A., Art, K., Nidzieko, N., Sylvester, Z., and Senn, D."
+    },
+    {
+      "name": "Climate Drivers of Southern Ocean Phytoplankton Community Composition and Potential Impacts on Higher Trophic Levels",
+      "publisher": "Frontiers in Marine Science",
+      "releaseDate": "2022-01-01",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmars.2022.916140",
+      "summary": "Krumhardt, K. M., Long, M. C., Sylvester, Z. T., and Petrik, C. M."
+    },
+    {
+      "name": "Simulations With the Marine Biogeochemistry Library (MARBL)",
+      "publisher": "Journal of Advances in Modeling Earth Systems",
+      "releaseDate": "2021-01-01",
+      "url": "https://doi.org/10.1029/2021MS002647",
+      "summary": "Long, M. C., Moore, J. K., Lindsay, K., ... Sylvester, Z. T."
+    },
+    {
+      "name": "Detecting Climate Signals in Southern Ocean Krill Growth Habitat",
+      "publisher": "Frontiers in Marine Science",
+      "releaseDate": "2021-01-01",
+      "url": "https://doi.org/10.1038/s41558-020-0758-4",
+      "summary": "Sylvester, Z. T., Long, M. C., and Brooks, C. M."
+    },
+    {
+      "name": "Progress towards a Representative Network of Southern Ocean Protected Areas",
+      "publisher": "PLOS ONE",
+      "releaseDate": "2020-04-22",
+      "url": "https://doi.org/10.1371/journal.pone.0231361",
+      "summary": "Brooks, C. M., Chown, S. L., Douglass, L. L., Raymond, B. P., Shaw, J. D., Sylvester, Z. T., and Torrens, C. L."
+    },
+    {
+      "name": "Protecting Antarctica through Co-production of Actionable Science: Lessons from the CCAMLR Marine Protected Area Process",
+      "publisher": "Marine Policy",
+      "releaseDate": "2019-10-01",
+      "url": "https://doi.org/10.1016/j.marpol.2019.103720",
+      "summary": "Sylvester, Z. T. and Brooks, C. M."
+    },
+    {
+      "name": "REPORT of the Online Workshop of the SCAR Krill Expert Group (SKEG), 20-24 March 2023",
+      "publisher": "Zenodo",
+      "releaseDate": "2023-07-10",
+      "url": "https://doi.org/10.5281/zenodo.8130840",
+      "summary": "Meyer, B., Kawaguchi, S., Arata, J. A., Atkinson, A., Bernard, K., Hill, S., Parker, S., and Sylvester, Z."
+    },
+    {
+      "name": "Using Models to Improve Our Understanding of Antarctic Krill and Their Ecological Role in the Southern Ocean",
+      "publisher": "Zenodo",
+      "releaseDate": "2022-01-01",
+      "url": "https://doi.org/10.5281/zenodo.6780069",
+      "summary": "Murphy, E., Corney, S., Hofmann, E., Meyer, B., Johnston, N., Thorpe, S., Brooks, C., Veytia, D., Bahl, A., Sylvester, Z., and Bahlburg, D."
+    },
+    {
+      "name": "The impact of how the early life cycle is physically represented on the modeled transport and retention of Antarctic krill",
+      "publisher": "CCAMLR Working Group on Ecosystem Monitoring and Management",
+      "releaseDate": "2023-01-01",
+      "summary": "Sylvester, Z., Dinniman, M., Thorpe, S., Pham, V., Williams, A., Bernard, K., and Brooks, C. (WG-EMM-2023/02)"
+    },
+    {
+      "name": "Hot spots in the ice: revealing the importance of polynyas for sustaining present and future Antarctic marine ecosystem",
+      "publisher": "CCAMLR Working Group on Ecosystem Monitoring and Management",
+      "releaseDate": "2022-01-01",
+      "summary": "Sylvester, Z., Brooks, C., DuVivier, A., Krumhardt, K., Landrum, L., Holland, M., Long, M., Jenouvrier, S., Bourreau, L., and Labrousse, S. (WG-EMM-2022/40)"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Coding",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "LaTeX"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
+      "name": "Web Dev and Software",
+      "icon": "fa-solid fa-globe",
+      "keywords": ["Wordpress", "ArcGIS"]
     },
     {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
+      "name": "Interdisciplinary Expertise",
+      "icon": "fa-solid fa-people-arrows",
+      "keywords": ["Cross-disciplinary collaboration", "Science-policy integration"]
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "name": "SCAR Krill Expert Group (SKEG) Science Symposium",
+      "summary": "Organizer and facilitator, virtual meeting",
+      "startDate": "2025-01-01",
+      "endDate": "2025-01-01"
+    },
+    {
+      "name": "Advancing the Krill Stock Hypothesis",
+      "summary": "Organizer and facilitator, virtual meeting",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-01"
+    },
+    {
+      "name": "Piloting a new web-based ecological index towards identifying Antarctic coastal ecological hotspots",
+      "summary": "Participant and rapporteur, SCAR Open Science Conference, Pucon, Chile",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-01"
+    },
+    {
+      "name": "Exploring the impacts of the details of simulating early life stage behavior on Antarctic krill connectivity across the West Antarctic Peninsula",
+      "summary": "Presenter, SCAR Open Science Conference, Pucon, Chile",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-01"
+    },
+    {
+      "name": "Don't Krill My Vibe, these Euphausia are superba",
+      "summary": "Guest Lecturer, Le Commandant Charcot, Antarctica",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-01"
+    },
+    {
+      "name": "SCAR Krill Expert Group, Krill Stock Hypothesis Development Workshop",
+      "summary": "Organizer and facilitator, virtual meeting",
+      "startDate": "2023-01-01",
+      "endDate": "2023-01-01"
+    },
+    {
+      "name": "Ross Sea Research Planning Meeting",
+      "summary": "Participant and rapporteur, Boulder, CO, USA",
+      "startDate": "2023-01-01",
+      "endDate": "2023-01-01"
+    },
+    {
+      "name": "Commission and Scientific Committee for the Conservation of Antarctic Marine Living Resources (CCAMLR)",
+      "summary": "Participant, Belgium Delegation, Hobart, Australia",
+      "startDate": "2022-01-01",
+      "endDate": "2022-01-01"
+    },
+    {
+      "name": "Working Group on Ecosystem Monitoring and Management (WG-EMM)",
+      "summary": "Participant, Belgium Delegation, virtual meetings",
+      "startDate": "2020-01-01",
+      "endDate": "2021-01-01"
+    },
+    {
+      "name": "ICED Workshop on Using Models to Improve Our Understanding of Antarctic Krill and Their Ecological Role",
+      "summary": "Organizer and facilitator, virtual meetings",
+      "startDate": "2021-01-01",
+      "endDate": "2021-01-01"
+    },
+    {
+      "name": "Commission and Scientific Committee for the Conservation of Antarctic Marine Living Resources (CCAMLR)",
+      "summary": "Participant, SCAR Delegation, Hobart, Australia",
+      "startDate": "2019-01-01",
+      "endDate": "2019-01-01"
+    },
+    {
+      "name": "Krill Fisheries Management Workshop",
+      "summary": "Participant and rapporteur, Concarneau, France",
+      "startDate": "2019-01-01",
+      "endDate": "2019-01-01"
+    }
+  ],
+  "references": [
+    {
+      "name": "Available on Request",
+      "icon": "fa-solid fa-envelope",
+      "reference": ""
     }
   ]
 }
