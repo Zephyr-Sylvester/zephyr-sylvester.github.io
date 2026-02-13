@@ -5,37 +5,84 @@
 
 @use "sass:color";
 
-// Colors
-$red-color: #ff3636 !default;
-$red-color-dark: #b71c1c !default;
-$orange-color: #f29105 !default;
-$blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
-$cyan-color: #2698ba !default;
+// =============================================================================
+// Everforest Light palette
+// =============================================================================
+$ef-bg0: #fdf6e3; // main background
+$ef-bg1: #f4f0d9; // card/sidebar background
+$ef-bg2: #efebd4; // dimmed background
+$ef-bg3: #e6e2cc; // borders
+$ef-bg4: #e0dcc7; // heavier borders
+$ef-bg5: #bdc3af; // muted accent
+
+$ef-fg: #5c6a72; // main text
+$ef-grey0: #a6b0a0; // dimmed text
+$ef-grey1: #939f91; // medium grey
+$ef-grey2: #829181; // stronger grey
+
+$ef-green: #8da101; // signature green
+$ef-aqua: #35a77c; // links/accent
+$ef-blue: #3a94c5; // alternate accent
+$ef-red: #f85552;
+$ef-orange: #f57d26;
+$ef-yellow: #dfa000;
+$ef-purple: #df69ba;
+
+// =============================================================================
+// Nord Dark palette
+// =============================================================================
+$nord0: #2e3440; // deepest background
+$nord1: #3b4252; // elevated surfaces
+$nord2: #434c5e; // selection
+$nord3: #4c566a; // comments/inactive
+
+$nord4: #d8dee9; // dimmed text
+$nord5: #e5e9f0; // standard text
+$nord6: #eceff4; // bright text
+
+$nord7: #8fbcbb; // teal
+$nord8: #88c0d0; // cyan (primary accent)
+$nord9: #81a1c1; // muted blue
+$nord10: #5e81ac; // deep blue
+
+$nord11: #bf616a; // red
+$nord12: #d08770; // orange
+$nord13: #ebcb8b; // yellow
+$nord14: #a3be8c; // green
+$nord15: #b48ead; // purple
+
+// =============================================================================
+// Legacy variable names (kept for compatibility with other _sass files)
+// =============================================================================
+$red-color: $ef-red !default;
+$red-color-dark: $nord11 !default;
+$orange-color: $ef-orange !default;
+$blue-color: $ef-blue !default;
+$blue-color-dark: $nord10 !default;
+$cyan-color: $nord8 !default;
 $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
-$green-color: #00ab37 !default;
+$green-color: $ef-green !default;
 $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
+$purple-color: $ef-purple !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
-$yellow-color: #efcc00 !default;
+$yellow-color: $ef-yellow !default;
 
-$grey-color: #828282 !default;
-$grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #1c1c1d;
-$grey-900: #212529;
+$grey-color: $ef-grey0 !default;
+$grey-color-light: $nord4;
+$grey-color-dark: $nord0;
+$grey-900: $nord1;
 
-$white-color: #ffffff !default;
-$black-color: #000000 !default;
+$white-color: $ef-bg0 !default;
+$black-color: $ef-fg !default;
 
 // Theme colors
-
-$code-bg-color-light: rgba($purple-color, 0.05);
-$code-bg-color-dark: #2c3237 !default;
+$code-bg-color-light: $ef-bg1;
+$code-bg-color-dark: $nord1 !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";
