@@ -507,11 +507,11 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=eQVj_rMAAAAJ", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-researchgate',
+        title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.researchgate.net/profile/Zephyr-Sylvester/", "_blank");
         },
       },{
       id: 'light-theme',
