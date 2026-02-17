@@ -31,7 +31,7 @@ We used a **qualitative network model (QNM)** — a framework that lets you inte
     </div>
 </div>
 <div class="caption">
-    The full story in one image. See below for a guided walk-through of each piece.
+    The full story in one image. Art by [Sven Bellanger](www.SvenBellanger.be). See below for a guided walk-through of each piece.
 </div>
 
 The headline findings:
@@ -93,10 +93,10 @@ During the winter months, a larval krill's ability to survive comes down to two 
     </div>
 </div>
 <div class="caption">
-    Krill swarming on the underside of sea ice — exactly the habitat that the prevailing paradigm puts at the center of larval overwinter survival. Photo: Ulrich Freier and Zephyr Sylvester.
+    Krill swarming on the underside of sea ice — exactly the habitat that the prevailing paradigm puts at the center of larval overwinter survival. Photo: Ulrich Freier; art by Zephyr Sylvester.
 </div>
 
-That image captures something remarkable: krill aggregating on the underside of the ice, grazing on algae growing in and just below the ice surface. The ice isn't just a backdrop — it's actively being used, as food source and as physical structure that offers some refuge from the open water below where predators hunt.
+That image captures something remarkable: krill aggregating on the underside of the ice, grazing on algae growing in and just below the ice surface. The ice isn't just a backdrop, it's actively being used, as food source and as physical structure that offers some refuge from the open water below where predators hunt.
 
 But this paradigm, compelling as it is, raises a harder question: *which* of these mechanisms matters most? Is it the food, the shelter, or the physical habitat structure itself? And does the answer differ depending on where in the Southern Ocean the larvae are?
 
@@ -162,8 +162,8 @@ knowns vs. unknowns, the region most important to krill, and climate change scen
     </div>
 </div>
 
-In order to test these three things in a non-computationally expensive way — while 
-still capturing the complexity of the ecosystem — we developed a qualitative network 
+In order to test these three things in a non-computationally expensive way while 
+still capturing the complexity of the ecosystem, we developed a qualitative network 
 model (QNM) that simplifies ecological relationships into their essential structure.
 
 ### Our Qualitative Network Analysis Framework
@@ -212,7 +212,7 @@ our questions.
 Habitat suitability for larval krill will decrease under all scenarios, 
 particularly in the Northern Antarctic Peninsula. Out of all the possible 
 relationships in the model, the one with the most influence on this result 
-was the projected decrease in seasonal primary productivity — less food 
+was the projected decrease in seasonal primary productivity: less food 
 available in autumn means larvae arrive at winter already behind.
 
 ---
@@ -247,14 +247,13 @@ Which brings us back to where we started:
 </div>
 <div class="caption">
     The full picture: food, shelter, habitat, and the mechanisms we still 
-    need to untangle. This is what the model is trying to capture — and 
-    what future field and lab work needs to resolve.
+    need to untangle. Art by [Sven Bellanger](www.SvenBellanger.be).
 </div>
 
 The infographic tells the story we couldn't tell with equations alone. 
 The QNM gave us a framework for holding competing hypotheses at once; 
 the infographic makes visible why that complexity matters. Both are 
-trying to do the same thing — make the invisible winter world of a 
+trying to do the same thing: make the invisible winter world of a 
 larval krill a little more legible.
 ---
 
