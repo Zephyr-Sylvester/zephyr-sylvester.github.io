@@ -133,13 +133,19 @@ external_sources:
       - url: https://scar.org/scar-news/life-sciences/skeg-news/44ccamlr-publication
         published_date: 2025-11-01
     categories: [external-posts]
-    tags: [policy, krill]
+    tags: [policy, krill, CCAMLR]
+  - name: OnlyOne
+    posts:
+      - url: https://only.one/campaign/antarctica-ecoindex
+        published_date: 2025-10-01
+    categories: [external-posts]
+    tags: [policy, krill, media, science-communication, interactive]
   - name: Smithsonian Magazine
     posts:
       - url: https://www.smithsonianmag.com/science-nature/tiny-antarctic-krill-benefit-the-planet-in-big-ways-but-face-a-barrage-of-threats-180986128/
         published_date: 2025-01-01
     categories: [external-posts]
-    tags: [krill, media]
+    tags: [krill, media, science-communication]
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -272,8 +278,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["krill", "policy", "lit-review", "media"] # these tags will be displayed on the front page of your blog
+display_categories: ["external-posts", "research-notes"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

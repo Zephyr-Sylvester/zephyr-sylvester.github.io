@@ -5,7 +5,7 @@ date: 2026-02-02
 description: A literature review of Amundsen Sea polynya dynamics, seasonal ice cycles, and recent trends.
 tags: research-notebook
 categories: lit-review
-thumbnail: assets/img/ZS-logo-blue.png
+thumbnail: assets/img/amundsen-ice.png
 ---
 
 ## Summary of Amundsen Sea Dynamics
