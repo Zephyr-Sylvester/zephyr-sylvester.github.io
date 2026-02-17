@@ -80,88 +80,6 @@ This is what makes winter the critical bottleneck for recruitment. Sea ice isn't
 
 ---
 
----
-layout: post
-title: "Untangling how Antarctic krill survive the winter — and what climate change means for their future"
-date: 2025-04-18
-description: "A qualitative network model reveals habitat-specific winners and losers as sea ice declines."
-tags: [antarctica, krill, sea-ice, recruitment, climate-change, southern-ocean]
-categories: publications
-related_posts: false
----
-
-Antarctic krill are small. About the size of your pinky finger. But they hold up an entire ocean.
-
-Every penguin, seal, whale, and seabird in the Southern Ocean depends — directly or indirectly — on *Euphausia superba*. And every krill alive today survived something remarkably precarious: their first winter.
-
-Our paper, published in *ICES Journal of Marine Science* in April 2025, takes a close look at that survival challenge — and at what happens to it as the ocean warms and sea ice disappears.
-
-> Sylvester, Z., et al. (2025). Untangling larval Antarctic krill overwinter survival under climate change using a qualitative network model. *ICES Journal of Marine Science*. [https://doi.org/10.1093/icesjms/fsaf049](https://doi.org/10.1093/icesjms/fsaf049)
-
----
-
-### The short version
-
-Winters with extensive sea ice have long been linked to strong krill recruitment the following spring. But *why*? Sea ice does a lot of things at once — it provides food (ice algae), shelter from predators (in ice terraces and under-ice habitat), and physical structure that shapes the water column. Untangling which of these mechanisms matters most, and how their loss will affect larval survival differently in different habitats, is exactly what this paper attempts.
-
-We used a **qualitative network model (QNM)** — a framework that lets you integrate both well-established and hypothesized ecological interactions and test what the system predicts under different scenarios, even when you don't have the quantitative data to parameterize a full simulation model.
-
-<div class="row justify-content-sm-center mt-4">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/overwintering/untangling-infographic.jpg" title="Untangling krill overwinter survival — infographic" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    The full story in one image. See below for a guided walk-through of each piece.
-</div>
-
-The headline findings:
-
-- **The northern Antarctic Peninsula continental shelf is most at risk.** Reduced autumn primary productivity and warming temperatures under future climate scenarios drive substantial declines in larval survival in this habitat.
-- **Open-ocean habitats may see improved survival under cooler scenarios** — where sea-ice-associated processes like food availability and under-ice refuge remain intact.
-- **Hypothesized mechanisms matter.** Including sea-ice terraces as potential predation refuges in the model *strengthened* the projected declines — suggesting that the loss of ice structure may matter as much as the loss of ice algae.
-- **Glacial melt is an unresolved uncertainty.** Its influence on food web dynamics emerged as a critical knowledge gap that future field and lab work should target.
-
----
-
-### Want to go deeper?
-
-The rest of this post walks through the paper's logic in more detail — the biology, the model structure, and what the results mean for each habitat. I've broken it into sections so you can read as much or as little as you want.
-
----
-
-## Why winter is the bottleneck
-
-Circumpolar krill populations grow each year through the recruitment of the previous year's juvenile class. Four things shape how many juveniles make it into the adult population: spawning success and larval development in spring and summer, how well-prepared krill are heading into winter, and — the focus of this paper — how many larvae actually survive it.
-
-<div class="row justify-content-sm-center mt-3">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/overwintering/seasonal-cycles-overwintering-ZTS.png" title="Krill seasonal population dynamics" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Krill population dynamics: circumpolar krill populations increase each year through the recruitment of the previous year's juvenile class.
-</div>
-
-Winter in the Southern Ocean is brutal for anything small and hungry. With little to no sunlight, primary productivity essentially shuts down — and with it, the food web that krill depend on.
-
-Adult krill have a strategy for this: they spend autumn eating as much as they can, building up lipid reserves from energy-rich prey like diatoms. Once winter hits, they stop feeding altogether and draw down those stores. They even *shrink* — physically reducing their body size to conserve energy until the light returns. It's a remarkable adaptation, but it only works because adults have the body mass to accumulate meaningful reserves in the first place.
-
-Larvae don't have that option. Too small to build lipid stores, they must keep feeding continuously throughout the winter — even when food is almost nowhere to be found. What little food is available to them comes largely from algae that has been trapped in sea ice and is slowly released as the ice melts, or from microzooplankton persisting in the water column.
-
-<div class="row justify-content-sm-center mt-3">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/overwintering/Fall-Winter-recruitement-ZTS.png" title="Krill overwintering strategies by age class" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Krill have different overwintering strategies depending on their age: adults have lipid stores to sustain them through winter; larvae don't — and must keep feeding to survive.
-</div>
-
-This is what makes winter the critical bottleneck for recruitment. Sea ice isn't just frozen water — for larval krill, it's a food source, a refuge from predators, and in some cases a physical habitat. As sea ice declines and becomes less predictable under climate change, understanding exactly *which* of these roles matters most — and *where* — becomes urgently important.
-
----
-
 ## What mechanisms control overwinter survival?
 
 Food and shelter — that's the short answer. Sea ice facilitates larval overwinter survival and subsequent recruitment by providing both.
@@ -187,9 +105,8 @@ That's what our model was designed to untangle.
 
 ## What is a qualitative network model — and why use one?
 
-Got it — you want the markdown pattern, not a rewrite. Here's a template block showing the formatting for a text section with a bulleted list, then an image, then more text:
-markdownHowever, it is unknown what adaptations larval krill have to survive the overwintering 
-period and what impacts decreases in sea ice may have on krill recruitment. Current 
+It is unknown what adaptations larval krill have to survive the overwintering
+period and what impacts decreases in sea ice may have on krill recruitment. Current
 theories on overwintering mechanisms include:
 
 - **Autumn food availability** — krill must build condition before winter arrives
@@ -325,5 +242,4 @@ trying to do the same thing — make the invisible winter world of a
 larval krill a little more legible.
 ---
 
-*This paper was produced as part of my dissertation research.
-
+*This paper was produced as part of my dissertation research.*
