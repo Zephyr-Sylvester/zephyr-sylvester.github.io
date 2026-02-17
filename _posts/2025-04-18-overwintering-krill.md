@@ -136,15 +136,30 @@ success?**
 So how do we attempt to answer a question like this? We wanted to test three things:
 knowns vs. unknowns, the region most important to krill, and climate change scenarios.
 
-<div class="row justify-content-sm-center mt-3">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/overwintering/hotspots-slide-pngs/Slide21.png" 
-        title="Components tested in the QNM" class="img-fluid rounded z-depth-1" %}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" 
+        path="assets/img/projects/overwintering/Figure_2.png" 
+        title="Antarctic krill habitat zones" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Antarctic krill habitat zones within the southwest Atlantic sector of 
+            the Southern Ocean used within the modelling simulation.
+        </div>
     </div>
-</div>
-<div class="caption">
-    Components tested: knowns vs. unknowns, the region most important to krill, 
-    and climate change scenarios.
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" 
+        path="assets/img/projects/overwintering/Table1.png" 
+        title="Climate change scenarios" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            The climate change scenarios simulated in this study by applying 
+            combinations of press perturbations to climate driver nodes.
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0 d-flex align-items-center justify-content-center">
+        <blockquote class="blockquote text-center">
+            <p class="mb-0">Relationships: Evidenced vs Hypothesized</p>
+        </blockquote>
+    </div>
 </div>
 
 In order to test these three things in a non-computationally expensive way — while 

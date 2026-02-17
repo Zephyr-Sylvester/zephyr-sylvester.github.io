@@ -19,7 +19,7 @@ related_publications: true
 
 Built with a team of 12 scientists across 7 institutions, this project brings together satellite data, biological models, and Earth System Model projections to ask: **which parts of Antarctica matter most ecologically — and which will still matter in a warming world?**
 
-The answer lives in two interactive tools, a peer-reviewed paper, and an open dataset. Pick your entry point below.
+The answer lives in two interactive tools, a [peer-reviewed paper](https://www.nature.com/articles/s41467-026-69011-0), and an open dataset. Pick your entry point below.
 
 ---
 
@@ -74,13 +74,13 @@ The results are striking. Some places — like the northern Antarctic Peninsula 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/aev/hotspots-slide-pngs/Slide9.png" title="Antarctic Peninsula story" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/aev/hotspots-slide-pngs/Slide10.png" title="Antarctic Peninsula story" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/aev/hotspots-slide-pngs/Slide10.png" title="Amundsen Sea story" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/aev/hotspots-slide-pngs/Slide11.png" title="Amundsen Sea story" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/aev/hotspots-slide-pngs/Slide11.png" title="Ross Sea story" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/aev/hotspots-slide-pngs/Slide12.png" title="Ross Sea story" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -334,12 +334,23 @@ This project was built by 12 scientists across 7 institutions over three years, 
 
 ### Photography
 
-Select images in this project are the work of underwater and wildlife photographer **John B. Weller**, whose photography has taken him from the Arctic to the Antarctic in service of ocean conservation.
+Media produced and featured on the OnlyOne project page are the work of photographer **John B. Weller**, whose photography has taken him from the Arctic to the Antarctic in service of ocean conservation.
 
 **[Explore his work at johnbweller.com →](https://www.johnbweller.com)**
 
 ---
 
-{% if page.related_publications %}
-{% bibliography --cited %}
-{% endif %}
+### Publications from This Project
+
+**Primary paper:**
+
+DuVivier, A.K., Krumhardt, K., Landrum, L.L., Sylvester, Z. et al. (2026). An Antarctic ecosystem value index to quantify ecological value across trophic levels and over time. *Nature Communications.* [https://doi.org/10.1038/s41467-026-69011-0](https://doi.org/10.1038/s41467-026-69011-0)
+
+**Companion methods paper:**
+
+Landrum, L.L., DuVivier, A.K., Holland, M.M., Krumhardt, K., and Sylvester, Z. (in press). Defining Antarctic polynyas in satellite observations and climate model output to support ecological climate change research. *The Cryosphere.* [https://doi.org/10.5194/egusphere-2024-3490](https://doi.org/10.5194/egusphere-2024-3490)
+
+**Related observational work:**
+
+Bourreau, L., Pauthenet, E., Le Ster, L., Picard, B., Portela, E., Sallée, J-B., McMahon, C.R., Harcourt, R., Hindell, M., Guinet, C., Bestley, S., Charrassin, J-B., DuVivier, A., Sylvester, Z., Krumhardt, K., Jenouvrier, S., and Labrousse, S. (2023). First description of *in situ* chlorophyll fluorescence signal within East Antarctic coastal polynyas during fall and winter. *Frontiers in Marine Science.* [https://doi.org/10.3389/fmars.2023.1186403](https://doi.org/10.3389/fmars.2023.1186403)
+
