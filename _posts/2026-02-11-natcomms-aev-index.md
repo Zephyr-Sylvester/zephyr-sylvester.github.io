@@ -6,6 +6,7 @@ description: "Mapping the ecological hotspots of Antarctica — present and futu
 tags: [antarctica, krill, polynyas, marine-conservation, open-access]
 categories: publications
 related_posts: false
+featured: true
 ---
 
 We're thrilled to share that our paper **"An Antarctic ecosystem value index to quantify ecological value across trophic levels and over time"** is now published in *Nature Communications*.

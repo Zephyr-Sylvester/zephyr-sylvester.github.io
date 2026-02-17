@@ -301,29 +301,29 @@ All data are open access and available for independent use in working group anal
 This project was built by 12 scientists across 7 institutions over three years, funded by NASA Applied Sciences Biodiversity and Ecological Forecasting (Grant 80NSSC21K1132).
 
 <div class="row align-items-center justify-content-center mt-3">
-    <div class="col-auto mt-2 mt-md-0 text-center px-3">
-        {% include figure.liquid loading="eager" path="assets/img/projects/aev/logos/CUBoulder.png" title="University of Colorado Boulder" class="img-fluid" style="max-height: 55px; width: auto;" %}
+    <div class="col-auto mt-2 mt-md-0 text-center px-2">
+        <img src="{{ 'assets/img/projects/aev/logos/CUBoulder.png' | relative_url }}" alt="University of Colorado Boulder" style="max-height: 35px; width: auto;">
     </div>
-    <div class="col-auto mt-2 mt-md-0 text-center px-3">
-        {% include figure.liquid loading="eager" path="assets/img/projects/aev/logos/USGS.png" title="U.S. Geological Survey" class="img-fluid" style="max-height: 55px; width: auto;" %}
+    <div class="col-auto mt-2 mt-md-0 text-center px-2">
+        <img src="{{ 'assets/img/projects/aev/logos/USGS.png' | relative_url }}" alt="U.S. Geological Survey" style="max-height: 35px; width: auto;">
     </div>
-    <div class="col-auto mt-2 mt-md-0 text-center px-3">
-        {% include figure.liquid loading="eager" path="assets/img/projects/aev/logos/UCCant.png" title="University of Canterbury" class="img-fluid" style="max-height: 55px; width: auto;" %}
+    <div class="col-auto mt-2 mt-md-0 text-center px-2">
+        <img src="{{ 'assets/img/projects/aev/logos/UCCant.png' | relative_url }}" alt="University of Canterbury" style="max-height: 35px; width: auto;">
     </div>
-    <div class="col-auto mt-2 mt-md-0 text-center px-3">
-        {% include figure.liquid loading="eager" path="assets/img/projects/aev/logos/LOCEAN.png" title="LOCEAN" class="img-fluid" style="max-height: 55px; width: auto;" %}
+    <div class="col-auto mt-2 mt-md-0 text-center px-2">
+        <img src="{{ 'assets/img/projects/aev/logos/LOCEAN.png' | relative_url }}" alt="LOCEAN" style="max-height: 35px; width: auto;">
     </div>
-    <div class="col-auto mt-2 mt-md-0 text-center px-3">
-        {% include figure.liquid loading="eager" path="assets/img/projects/aev/logos/WHOI.png" title="Woods Hole Oceanographic Institution" class="img-fluid" style="max-height: 55px; width: auto;" %}
+    <div class="col-auto mt-2 mt-md-0 text-center px-2">
+        <img src="{{ 'assets/img/projects/aev/logos/WHOI.png' | relative_url }}" alt="Woods Hole Oceanographic Institution" style="max-height: 35px; width: auto;">
     </div>
-    <div class="col-auto mt-2 mt-md-0 text-center px-3">
-        {% include figure.liquid loading="eager" path="assets/img/projects/aev/logos/NCAR.png" title="National Center for Atmospheric Research" class="img-fluid" style="max-height: 55px; width: auto;" %}
+    <div class="col-auto mt-2 mt-md-0 text-center px-2">
+        <img src="{{ 'assets/img/projects/aev/logos/NCAR.png' | relative_url }}" alt="National Center for Atmospheric Research" style="max-height: 35px; width: auto;">
     </div>
-    <div class="col-auto mt-2 mt-md-0 text-center px-3">
-        {% include figure.liquid loading="eager" path="assets/img/projects/aev/logos/IBED.png" title="Institute for Biodiversity and Ecosystem Dynamics, University of Amsterdam" class="img-fluid" style="max-height: 55px; width: auto;" %}
+    <div class="col-auto mt-2 mt-md-0 text-center px-2">
+        <img src="{{ 'assets/img/projects/aev/logos/IBED.png' | relative_url }}" alt="IBED, University of Amsterdam" style="max-height: 35px; width: auto;">
     </div>
-    <div class="col-auto mt-2 mt-md-0 text-center px-3">
-        {% include figure.liquid loading="eager" path="assets/img/projects/aev/logos/NASA.png" title="NASA" class="img-fluid" style="max-height: 55px; width: auto;" %}
+    <div class="col-auto mt-2 mt-md-0 text-center px-2">
+        <img src="{{ 'assets/img/projects/aev/logos/NASA.png' | relative_url }}" alt="NASA" style="max-height: 35px; width: auto;">
     </div>
 </div>
 <div class="caption mt-2">

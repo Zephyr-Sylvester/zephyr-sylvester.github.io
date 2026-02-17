@@ -6,6 +6,7 @@ description: "A qualitative network model reveals habitat-specific winners and l
 tags: [antarctica, krill, sea-ice, recruitment, climate-change, southern-ocean]
 categories: publications
 related_posts: false
+featured: true
 ---
 
 Antarctic krill are small. About the size of your pinky finger. But they hold up an entire ocean.
