@@ -48,6 +48,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/what-goes-here/";
           
         },
+      },{id: "post-our-antarctic-ecosystem-value-index-is-published-in-nature-communications",
+        
+          title: "Our Antarctic Ecosystem Value Index is published in Nature Communications",
+        
+        description: "Mapping the ecological hotspots of Antarctica — present and future.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/natcomms-aev-index/";
+          
+        },
       },{id: "post-amundsen-sea-dynamics",
         
           title: "Amundsen Sea Dynamics",
@@ -79,6 +90,17 @@ ninja.data = [{
         handler: () => {
           
             window.open("https://only.one/campaign/antarctica-ecoindex", "_blank");
+          
+        },
+      },{id: "post-untangling-how-antarctic-krill-survive-the-winter-and-what-climate-change-means-for-their-future",
+        
+          title: "Untangling how Antarctic krill survive the winter — and what climate change means...",
+        
+        description: "A qualitative network model reveals habitat-specific winners and losers as sea ice declines.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/overwintering-krill/";
           
         },
       },{id: "post-tiny-antarctic-krill-benefit-the-planet-in-big-ways-but-face-a-barrage-of-threats",
@@ -153,6 +175,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-hot-spots-in-the-ice",
+          title: 'Hot Spots in the Ice',
+          description: "A tool for exploring Antarctic ecosystem value, now and into the future",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hotspots-project-page/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
