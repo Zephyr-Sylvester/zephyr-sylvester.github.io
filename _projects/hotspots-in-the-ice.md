@@ -17,42 +17,46 @@ related_publications: true
     Antarctic ice edge. Photo: Zephyr Sylvester.
 </div>
 
-Built with a team of 12 scientists across 7 institutions, this project brings together satellite data, biological models, and Earth System Model projections to ask: **which parts of Antarctica matter most ecologically — and which will still matter in a warming world?**
+## Creating an Antarctic Ecosystem Value (AEV) Index 
+#### Translating earth system science into a tool for decision makers, scientists and the general public 
 
-The answer lives in two interactive tools, a [peer-reviewed paper](https://www.nature.com/articles/s41467-026-69011-0), and an open dataset. Pick your entry point below.
+In 2020, researchers at CU Boulder and NCAR researchers started wondering if it was possible to expand the capacity of Earth System Models to make future projections relevant for decision makers and scientists regarding the ecosystem value of polynyas. So they pulled together a proposal that would take an applied science approach and produce not just science, but science communication tools for decision makers and scientists determining conservation policy.
+
+One NASA grant later and a team of 12 scientists across 7 institutions was assembled to bring together satellite data, biological models, and Earth System Model projections to ask: **which parts of Antarctica matter most ecologically — and which will still matter in a warming world?**
+
+Our goal was to take science that is so rarely understood by those outside of academia and make it both applicable to management goals and approachable to decision makers and the public. 
+
+To do so, we created an Antarctic Ecosystem Value index and [built an interactive tool](https://only.one/campaign/antarctica-ecoindex) to allow users to interact with it as either a science product or as a story telling tool. 
+
+You can interact with our work as stories, visualize the data, or download it for your own research - whatever your interest, there's something for you.
 
 ---
+## Pick your background
 
 {% tabs aev_project %}
 
-{% tab aev_project 🌊 Curious Explorer %}
+{% tab aev_project Casual Explorer %}
 
-### The Ocean Beneath the Ice Is Changing
+Antarctica isn't just ice. Hidden in the gaps are patches of open water called **polynyas**. A polynya (from the Russian word for "open water") is a persistent patch of open ocean surrounded by sea ice. They form when wind or upwelling currents keep the surface clear, even in the depths of winter. Think of them as oases in the frozen desert, and like oases, life concentrates around them. Some polynyas span hundreds of kilometers and generate more biological productivity per square meter than almost anywhere else in the Southern Ocean. 
 
-Antarctica isn't just ice. Hidden in the gaps — patches of open water called **polynyas** — entire food webs hinge on a few months of summer sunlight. Microscopic algae bloom. Krill swarm by the billions. Penguins, seals, and whales follow.
+Within polynyas, microscopic algae can start blooming as soon as the sun returns to the South. With an abundance of food in these areas, krill swarm, and penguins, seals, and whales follow.
 
-Now imagine all of that shifting — contracting toward the poles — as the climate warms.
-
-That's the story we set out to tell. And rather than bury it in a scientific journal, we put it on a map and handed you the controls.
+Now imagine all of that shifting as the climate warms. That's the story we set out to tell. And rather than bury it in a scientific journal, we put it on a map and handed you the controls.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/aev/DSC05926-ZTS_snowburg.JPG" title="Antarctic iceberg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/aev/IMG_2116-ZTS_floating-ice-flake.jpg" title="Floating ice flake, Antarctica" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/aev/IMG_2116-ZTS_floating-ice-flake.jpg" title="ice forming on the surface, Antarctica" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/aev/DSC05975-ZTS-building-like-ice.jpg" title="Tabular iceberg, Antarctica" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    The Southern Ocean in all its forms: a snow-covered iceberg, a floating ice flake, and a towering tabular berg. Photos: Zephyr Sylvester.
+    The Southern Ocean in all its forms: never ending snow and ice, ice forming, and a towering tabular berg. Photos: Zephyr Sylvester.
 </div>
-
-#### What Is a Polynya?
-
-A polynya (from the Russian word for "open water") is a persistent patch of open ocean surrounded by sea ice. They form when wind or upwelling currents keep the surface clear — even in the depths of winter. Think of them as oases in the frozen desert, and like oases, life concentrates around them. Some polynyas span hundreds of kilometers and generate more biological productivity per square meter than almost anywhere else in the Southern Ocean.
 
 #### We Built a Map — and Projected It to 2090
 
@@ -93,30 +97,10 @@ On the interactive map you can toggle **species-specific layers** (phytoplankton
 
 <a href="https://only.one/map/antarctica-ecoindex#3.7/-85/169" class="btn btn-sm z-depth-0" role="button" style="background-color: #1a6b8a; color: white;">🗺️ Explore the AEV Index</a>
 
-#### Why Does This Matter?
-
-The Southern Ocean absorbs roughly 40% of the world's human-produced CO₂. Antarctic krill support virtually every predator in the ecosystem — and are commercially fished. Knowing which places will remain ecologically valuable in a warming world should shape where we protect.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/aev/IMG_0711-ZTS-whaletail.jpg" title="Humpback whale, Antarctica" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/aev/IMG_2578-ZTS-humans-on-ice.jpg" title="Fieldwork on sea ice, Antarctica" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/aev/IMG_2934-ZTS_Erebus.jpg" title="Mt. Erebus from the Ross Sea" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    A humpback whale at the surface, researchers on sea ice, and Mt. Erebus from the Ross Sea. Photos: Zephyr Sylvester.
-</div>
-
-*The full dataset is freely available on [Zenodo](https://zenodo.org/records/16990591). To compare the AEV Index against other important area analyses, try the [Index Comparison Tool](https://saef-monash.shinyapps.io/antarctic_map/).*
-
 {% endtab %}
 
-{% tab aev_project 🔬 Fellow Researcher %}
+
+{% tab aev_project Fellow Researcher %}
 
 ### Methods, Data, and Tools
 
@@ -218,7 +202,7 @@ If you're working on something where the AEV data could be useful, reach out —
 
 {% endtab %}
 
-{% tab aev_project 🐧 Fishery Manager %}
+{% tab aev_project Fishery Manager %}
 
 ### Science in Support of Antarctic Conservation Planning
 
@@ -302,28 +286,28 @@ This project was built by 12 scientists across 7 institutions over three years, 
 
 <div class="row align-items-center justify-content-center mt-3">
     <div class="col-auto mt-2 mt-md-0 text-center px-2">
-        <img src="{{ 'assets/img/projects/aev/logos/CUBoulder.png' | relative_url }}" alt="University of Colorado Boulder" style="max-height: 35px; width: auto;">
+        <img src="{{ 'assets/img/projects/aev/logos/CUBoulder.png' | relative_url }}" alt="University of Colorado Boulder" style="max-height: 50px; width: auto;">
     </div>
     <div class="col-auto mt-2 mt-md-0 text-center px-2">
-        <img src="{{ 'assets/img/projects/aev/logos/USGS.png' | relative_url }}" alt="U.S. Geological Survey" style="max-height: 35px; width: auto;">
+        <img src="{{ 'assets/img/projects/aev/logos/USGS.png' | relative_url }}" alt="U.S. Geological Survey" style="max-height: 50px; width: auto;">
     </div>
     <div class="col-auto mt-2 mt-md-0 text-center px-2">
-        <img src="{{ 'assets/img/projects/aev/logos/UCCant.png' | relative_url }}" alt="University of Canterbury" style="max-height: 35px; width: auto;">
+        <img src="{{ 'assets/img/projects/aev/logos/UCCant.png' | relative_url }}" alt="University of Canterbury" style="max-height: 50px; width: auto;">
     </div>
     <div class="col-auto mt-2 mt-md-0 text-center px-2">
-        <img src="{{ 'assets/img/projects/aev/logos/LOCEAN.png' | relative_url }}" alt="LOCEAN" style="max-height: 35px; width: auto;">
+        <img src="{{ 'assets/img/projects/aev/logos/LOCEAN.png' | relative_url }}" alt="LOCEAN" style="max-height: 50px; width: auto;">
     </div>
     <div class="col-auto mt-2 mt-md-0 text-center px-2">
-        <img src="{{ 'assets/img/projects/aev/logos/WHOI.png' | relative_url }}" alt="Woods Hole Oceanographic Institution" style="max-height: 35px; width: auto;">
+        <img src="{{ 'assets/img/projects/aev/logos/WHOI.png' | relative_url }}" alt="Woods Hole Oceanographic Institution" style="max-height: 50px; width: auto;">
     </div>
     <div class="col-auto mt-2 mt-md-0 text-center px-2">
-        <img src="{{ 'assets/img/projects/aev/logos/NCAR.png' | relative_url }}" alt="National Center for Atmospheric Research" style="max-height: 35px; width: auto;">
+        <img src="{{ 'assets/img/projects/aev/logos/NCAR.png' | relative_url }}" alt="National Center for Atmospheric Research" style="max-height: 50px; width: auto;">
     </div>
     <div class="col-auto mt-2 mt-md-0 text-center px-2">
-        <img src="{{ 'assets/img/projects/aev/logos/IBED.png' | relative_url }}" alt="IBED, University of Amsterdam" style="max-height: 35px; width: auto;">
+        <img src="{{ 'assets/img/projects/aev/logos/IBED.png' | relative_url }}" alt="IBED, University of Amsterdam" style="max-height: 50px; width: auto;">
     </div>
     <div class="col-auto mt-2 mt-md-0 text-center px-2">
-        <img src="{{ 'assets/img/projects/aev/logos/NASA.png' | relative_url }}" alt="NASA" style="max-height: 35px; width: auto;">
+        <img src="{{ 'assets/img/projects/aev/logos/NASA.png' | relative_url }}" alt="NASA" style="max-height: 50px; width: auto;">
     </div>
 </div>
 <div class="caption mt-2">
@@ -343,7 +327,6 @@ Media produced and featured on the OnlyOne project page are the work of photogra
 ### Publications from This Project
 
 **Primary paper:**
-
 DuVivier, A.K., Krumhardt, K., Landrum, L.L., Sylvester, Z. et al. (2026). An Antarctic ecosystem value index to quantify ecological value across trophic levels and over time. *Nature Communications.* [https://doi.org/10.1038/s41467-026-69011-0](https://doi.org/10.1038/s41467-026-69011-0)
 
 **Companion methods paper:**
