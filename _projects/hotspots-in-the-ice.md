@@ -6,6 +6,7 @@ img: assets/img/projects/aev/IMG_2623-ZTS-ice-edge-ice-wall.jpg
 importance: 1
 category: research
 related_publications: true
+tabs: true
 ---
 
 <div class="row">
