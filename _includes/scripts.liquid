@@ -376,3 +376,15 @@
 {% if site.newsletter.enabled %}
   <script defer src="{{ '/assets/js/newsletter.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
+
+<!-- Image protection: disable right-click and drag on images -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("img").forEach(function (img) {
+      img.setAttribute("draggable", "false");
+      img.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+      });
+    });
+  });
+</script>
