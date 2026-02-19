@@ -38,6 +38,7 @@ Krill eggs don't just float. After spawning, embryos sink, sometimes hundreds of
 </div>
 <div class="caption">
     Lagrangian drifter simulation design: The Primary movement of particles is determined by ocean and sea ice velocities depending on sea ice concentrations and particle depth. Additional vertical behavior is determined by the life stage representing how krill larvae move through the water column. This detail is crucial for understanding how they interact with physical ocean properties and the habitat they reach during development.
+</div>
 
 We use **Regional Ocean Modeling System (ROMS)** at high resolution (~1.5 km) to simulate ocean circulation along the wAP, coupled with offline Lagrangian particle tracking to follow hundreds of thousands of virtual larvae through their early development.
 
@@ -63,7 +64,7 @@ Our first paper from this research program ([Sylvester et al. 2026, MEPS](https:
 
 These results provided the proof of concept that motivated the next phase: taking these questions into a high-resolution regional model.
 
-### #### Scaling up: high-resolution regional modeling
+#### Scaling up: high-resolution regional modeling
 
 The circumpolar model established that connectivity between spawning and nursery grounds is real, structured, and sensitive to wind variability. But its 5 km resolution and coarse drifter spacing leave fine-scale dynamics unresolved. Mesoscale eddies, complex coastline interactions, and the detailed bathymetry of straits and embayments all matter for larval retention and exchange at the scale where nursery grounds actually function.
 
@@ -75,10 +76,10 @@ With this higher resolution, we are tracking hundreds of thousands of virtual la
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/So-simple-ZTS.jpg" title="Circumpolar Scale" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/So-simple-ZTS.png" title="Circumpolar Scale" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/connectivity/W Ap dark copy.jpg" title="wAP Scale" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/W Ap dark copy.jpg" title="wAP Scale" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

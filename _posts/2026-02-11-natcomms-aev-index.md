@@ -13,7 +13,7 @@ I am thrilled to share that a paper I helped write **"An Antarctic ecosystem val
 
 > DuVivier, A.K., Krumhardt, K., Landrum, L.L., Sylvester, Z. et al. (2026). An Antarctic ecosystem value index to quantify ecological value across trophic levels and over time. *Nature Communications.* [https://doi.org/10.1038/s41467-026-69011-0](https://doi.org/10.1038/s41467-026-69011-0)
 
-This paper is the scientific backbone of a [larger project](https://zephyr-sylvester.github.io/projects/hotspots-in-the-ice/) we've been building for several years. Here's what we found in our paper, why it matters, and what you can do with it.
+This paper is the scientific backbone of a [larger project](/projects/hotspots-in-the-ice) we've been building for several years. Here's what we found in our paper, why it matters, and what you can do with it.
 
 ---
 

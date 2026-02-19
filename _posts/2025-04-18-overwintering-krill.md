@@ -139,7 +139,7 @@ knowns vs. unknowns, the region most important to krill, and climate change scen
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" 
-        path="assets/img/projects/overwintering/Figure_2.png" 
+        path="assets/img/projects/overwintering/figure_2.png" 
         title="Antarctic krill habitat zones" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             Antarctic krill habitat zones within the southwest Atlantic sector of 

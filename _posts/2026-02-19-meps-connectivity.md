@@ -21,7 +21,7 @@ This paper asks a question that sounds simple but turns out to be surprisingly h
 
 Antarctic krill are the foundation of the Southern Ocean food web, and their populations depend on successful recruitment, meaning larvae surviving long enough to join the adult population. But between spawning and recruitment lies a gauntlet: eggs sink, embryos develop through a descent–ascent cycle, and the resulting larvae are at the mercy of ocean currents for months.
 
-The western Antarctic Peninsula (wAP) is one of the most important regions for krill globally, but we've had Zsurprisingly little mechanistic understanding of how larvae move between spawning areas and the nursery grounds where they develop. Are nursery grounds self-sustaining, or do they depend on larval supply from elsewhere? How reliable are those supply pathways from year to year? And what happens when the winds change?
+The western Antarctic Peninsula (wAP) is one of the most important regions for krill globally, but we've had surprisingly little mechanistic understanding of how larvae move between spawning areas and the nursery grounds where they develop. Are nursery grounds self-sustaining, or do they depend on larval supply from elsewhere? How reliable are those supply pathways from year to year? And what happens when the winds change?
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

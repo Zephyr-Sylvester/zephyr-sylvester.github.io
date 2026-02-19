@@ -5,7 +5,7 @@ permalink: /projects/
 description: Research projects and tools for Antarctic marine ecology and conservation.
 nav: true
 nav_order: 3
-display_categories: [research]
+display_categories: [research, service]
 horizontal: false
 ---
 

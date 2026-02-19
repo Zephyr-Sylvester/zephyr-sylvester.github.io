@@ -2,7 +2,7 @@
 layout: page
 title: SCAR Krill Expert Group
 description: Building the communications infrastructure for international Antarctic krill research
-img: assets/img/projects/skeg/PLACEHOLDER-hero-image.jpg
+img: assets/img/logo-SKEG-3.2-black-text.png
 importance: 1
 category: service
 related_publications: false
@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/skeg/PLACEHOLDER-hero-image.jpg" title="SKEG Mini-Symposium" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/krill_PeteHarmsenAAD-SKEG-square.png" title="SKEG Logo" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -20,7 +20,7 @@ related_publications: false
 ## The SCAR Krill Expert Group (SKEG)
 #### Connecting krill researchers, coordinating international science, and bridging the gap between research and policy
 
-The [SCAR Krill Expert Group (SKEG)](https://scar-krill-expert-group.github.io/) is an international network of approximately 90 researchers from 15 countries, coordinated under the [Scientific Committee on Antarctic Research (SCAR)](https://www.scar.org/). SKEG connects the people doing Antarctic krill research — with each other, with funding and ship time opportunities, and with the policy world, particularly [CCAMLR](https://www.ccamlr.org/), the commission responsible for managing the Antarctic krill fishery.
+The [SCAR Krill Expert Group (SKEG)](https://www.scarkrillexpertgroup.org) is an international network of approximately 90 researchers from 15 countries, coordinated under the [Scientific Committee on Antarctic Research (SCAR)](https://www.scar.org/). SKEG connects the people doing Antarctic krill research — with each other, with funding and ship time opportunities, and with the policy world, particularly [CCAMLR](https://www.ccamlr.org/), the commission responsible for managing the Antarctic krill fishery.
 
 Krill research is a small enough field that coordination infrastructure makes a real, measurable difference. SKEG provides that infrastructure: facilitating collaboration across institutions and countries, identifying knowledge gaps, developing international research proposals, and making sure the science reaches the people making conservation decisions.
 
@@ -48,7 +48,7 @@ Organizing virtual events across 15+ time zones for a volunteer-run scientific g
 
 I wanted a place where anyone — researchers, students, policymakers, or the krill-curious — could go to learn about what SKEG does, what's happening in krill research, and how to get involved. That place didn't exist, so I built it.
 
-The [SKEG website](https://scar-krill-expert-group.github.io/) serves as the central hub for the group: symposium announcements and archives, task force updates, community resources, and news. It was originally built on WordPress and has since been mirrored on GitHub Pages as a lightweight backup.
+The [SKEG website](https://www.scarkrillexpertgroup.org)) serves as the central hub for the group: symposium announcements and archives, task force updates, community resources, and news. It was originally built on WordPress and has since been mirrored on GitHub Pages as a lightweight backup.
 
 <!-- FIGURE: Screenshot of the SKEG website -->
 
@@ -67,7 +67,7 @@ Beyond the visible events and the website, a lot of what makes SKEG valuable is 
 
 ## Links
 
-- [SKEG Website](https://scar-krill-expert-group.github.io/)
+- [SKEG Website](https://www.scarkrillexpertgroup.org)
 - [Scientific Committee on Antarctic Research (SCAR)](https://www.scar.org/)
 - [CCAMLR](https://www.ccamlr.org/)
 
