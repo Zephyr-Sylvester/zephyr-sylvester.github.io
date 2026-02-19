@@ -11,7 +11,7 @@ featured: true
 
 Antarctic krill are small. About the size of your pinky finger. But they hold up an entire ocean.
 
-Every penguin, seal, whale, and seabird in the Southern Ocean depends — directly or indirectly — on *Euphausia superba*. And every krill alive today survived something remarkably precarious: their first winter.
+Every penguin, seal, whale, and seabird in the Southern Ocean depends, directly or indirectly, on *Euphausia superba*. And every krill alive today survived something remarkably precarious: their first winter.
 
 Our paper, published in *ICES Journal of Marine Science* in April 2025, takes a close look at that survival challenge — and at what happens to it as the ocean warms and sea ice disappears.
 
