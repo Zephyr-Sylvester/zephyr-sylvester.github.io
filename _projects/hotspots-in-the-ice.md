@@ -162,7 +162,7 @@ The index was developed iteratively, with formal and informal feedback loops thr
 
 #### The Index Comparison Shiny App
 
-Developed in direct response to a recurring question from CCAMLR delegations — *how does this compare to KBAs, AES, and existing bioregionalizations?* — the app integrates all major circumpolar-scale important area analyses in one place.
+Developed in tandem with this project, another app was buil to integrate all major circumpolar-scale important area analyses in one place. This was done in direct response to a recurring question from CCAMLR delegations of *how does this compare to KBAs, AES, and existing bioregionalizations?*
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -203,7 +203,7 @@ If you're working on something where the AEV data could be useful, reach out —
 
 {% endtab %}
 
-{% tab aev_project Fishery Manager %}
+{% tab aev_project Marine Resource Management %}
 
 ### Science in Support of Antarctic Conservation Planning
 
@@ -230,13 +230,13 @@ The AEV Index scores the ecological importance of Antarctic coastal waters based
 #### Implications for the MPA Network
 
 **Antarctic Peninsula — D1MPA**
-The northern and southern Peninsula are diverging ecologically. The north is losing sea ice and krill habitat. The south — including the area encompassed by the proposed Domain 1 MPA — shows greater stability and potential as a **climate refugium for krill** through the end of the century. The AEV Index provides quantitative support for the D1MPA ecological rationale.
+The northern and southern Peninsula are diverging ecologically. The north is losing sea ice and krill habitat. The south shows greater stability and potential as a **climate refugium for krill** through the end of the century. The AEV Index provides quantitative support for the D1MPA ecological rationale.
 
 **Amundsen Sea — A Gap in the Network**
 The Amundsen Sea hosts the most productive polynyas per square meter in Antarctica and is projected to *increase* in productivity by 2090. There is currently no proposed MPA for this region despite ongoing pressure from toothfish fisheries. The AEV Index identifies this as a significant gap in the current network.
 
 **Ross Sea — Supporting the 10-Year Review**
-The AEV Index confirms the high ecological value of the Ross Sea polynya and projects stable or increasing productivity through the century — providing independent evidence of the RSRMPA's long-term effectiveness ahead of future reviews.
+The AEV Index confirms the high ecological value of the Ross Sea polynya and projects stable or increasing productivity through the century providing independent projections of evidence of the RSRMPA's long-term effectiveness ahead of future reviews.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -328,6 +328,7 @@ Media produced and featured on the OnlyOne project page are the work of photogra
 ### Publications from This Project
 
 **Primary paper:**
+
 DuVivier, A.K., Krumhardt, K., Landrum, L.L., Sylvester, Z. et al. (2026). An Antarctic ecosystem value index to quantify ecological value across trophic levels and over time. *Nature Communications.* [https://doi.org/10.1038/s41467-026-69011-0](https://doi.org/10.1038/s41467-026-69011-0)
 
 **Companion methods paper:**

@@ -125,7 +125,7 @@ The connectivity pathways we observed, particularly the wind-sensitive ones supp
 
 This circumpolar model gave us the proof of concept: our model can simulate connectivity between spawning and nursery grounds within the bounds of observed patterns. But the 5 km resolution and 25×25 km drifter spacing leave fine-scale dynamics unresolved. The next step is to take these questions into a high-resolution regional model, resolving the mesoscale circulation, complex coastline interactions, and bathymetric details that matter for larval retention and exchange at the scale where nursery grounds actually function.
 
-For more on the broader research program, see the [project page](/projects/krill-larval-connectivity).
+For more on the broader research program, see the [project page](/projects/krill-connectivity).
 
 ---
 
