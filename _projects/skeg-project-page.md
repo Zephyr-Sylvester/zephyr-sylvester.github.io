@@ -2,7 +2,7 @@
 layout: page
 title: SCAR Krill Expert Group
 description: Building the communications infrastructure for international Antarctic krill research
-img: assets/img/logo-SKEG-3.2-black-text.png
+img: assets/img/logos/logo-SKEG-3.2-black-text.png
 importance: 1
 category: service
 related_publications: false
