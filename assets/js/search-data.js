@@ -146,8 +146,8 @@ ninja.data = [{
           description: "A tool for exploring Antarctic ecosystem value, now and into the future",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hotspots-in-the-ice/";
-            },},{id: "projects-krill-larval-connectivity",
-          title: 'Krill Larval Connectivity',
+            },},{id: "projects-krill-connectivity",
+          title: 'Krill Connectivity',
           description: "Modeling how ocean currents, biology, and sea ice shape the early life of Antarctic krill",
           section: "Projects",handler: () => {
               window.location.href = "/projects/krill-connectivity/";
