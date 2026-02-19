@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-what-goes-here",
+        },{id: "post-mapping-how-krill-larvae-get-from-spawning-grounds-to-nurseries-along-the-antarctic-peninsula",
+        
+          title: "Mapping how krill larvae get from spawning grounds to nurseries along the Antarctic...",
+        
+        description: "A new paper in MEPS uses ocean modeling and particle tracking to show how bathymetry, embryo size, and wind variability shape larval krill connectivity.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/meps-connectivity/";
+          
+        },
+      },{id: "post-what-goes-here",
         
           title: "What goes here",
         
@@ -135,6 +146,16 @@ ninja.data = [{
           description: "A tool for exploring Antarctic ecosystem value, now and into the future",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hotspots-in-the-ice/";
+            },},{id: "projects-krill-larval-connectivity",
+          title: 'Krill Larval Connectivity',
+          description: "Modeling how ocean currents, biology, and sea ice shape the early life of Antarctic krill",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/krill-connectivity/";
+            },},{id: "projects-scar-krill-expert-group",
+          title: 'SCAR Krill Expert Group',
+          description: "Building the communications infrastructure for international Antarctic krill research",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/skeg-project-page/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
