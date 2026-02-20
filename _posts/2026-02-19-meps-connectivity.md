@@ -127,6 +127,8 @@ This circumpolar model gave us the proof of concept: our model can simulate conn
 
 For more on the broader research program, see the [project page](/projects/krill-connectivity).
 
+also, if you can't access the paper but would like to read it, [send a request on research gate] (https://www.researchgate.net/publication/398451404_Modelled_connectivity_of_Antarctic_krill_spawning_and_nursery_grounds_along_the_Western_Antarctic_Peninsula) and I'll get you a copy!
+
 ---
 
 
