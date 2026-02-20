@@ -13,7 +13,7 @@ Our paper **"Modeled connectivity of Antarctic krill spawning and nursery ground
 
 > Sylvester, Z.T., Dinniman, M.S., Thorpe, S.E., Bernard, K.S., Brooks, C.M. (2026). Modeled connectivity of Antarctic krill spawning and nursery grounds along the Western Antarctic Peninsula. *Marine Ecology Progress Series*, 779, meps15059. [https://doi.org/10.3354/meps15059](https://doi.org/10.3354/meps15059)
 
-This paper asks a question that sounds simple but turns out to be surprisingly hard to answer: **where do krill larvae end up after they're spawned, and what controls whether they make it to a nursery ground?**
+Our goal was to model connectivity between spawning and nursery grounds of Antarctic krill and try to answer the question: **What areas are important for ontogenetic habitat partitioning in early life stages of krill and how does connectivity between regions influence broader population dynamics**
 
 ---
 
