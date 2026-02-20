@@ -56,7 +56,7 @@ This biological detail is crucial. Where a larva sits in the water column determ
 
 ### Key findings: Nursery by nursery
 
-We focused on the wAP, identifying four known nursery grounds: Bransfield Strait, Gerlache Strait, Grandidier Passage, and Marguerite Bay. By tracking which simulated larvae spent more than 21 days in each nursery region during their first 6 months of life, we could trace back to where those larvae were spawned and map the connectivity between spawning and nursery habitat.
+We focused on the wAP, identifying four known nursery grounds: Bransfield Strait (BS), Gerlache Strait, Grandidier Passage, and Marguerite Bay (MB). By tracking which simulated larvae spent more than 21 days in each nursery region during their first 6 months of life, we could trace back to where those larvae were spawned and map the connectivity between spawning and nursery habitat.
 
 #### Bransfield Strait
 
