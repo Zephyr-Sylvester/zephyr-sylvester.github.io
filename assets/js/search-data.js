@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-exploring-ai-research-tools-a-polynya-mapping-case-study",
-        
-          title: "Exploring AI Research Tools: A Polynya Mapping Case Study",
-        
-        description: "I asked SciSpace to do a lit review on polynyas and then build a website exploring it&#39;s findings. It iterated impressively, but then it did what all AI are prone to do: fabricated data. A case study in the gap between AI synthesis and generation.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/polynya-ai-website/";
-          
-        },
-      },{id: "post-mapping-how-krill-larvae-get-from-spawning-grounds-to-nurseries-along-the-antarctic-peninsula",
+        },{id: "post-mapping-how-krill-larvae-get-from-spawning-grounds-to-nurseries-along-the-antarctic-peninsula",
         
           title: "Mapping how krill larvae get from spawning grounds to nurseries along the Antarctic...",
         
