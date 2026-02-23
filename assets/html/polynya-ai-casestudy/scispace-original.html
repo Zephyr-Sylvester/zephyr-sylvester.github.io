@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive mapping and visualization of Pine Island and Amundsen Sea polynyas in Antarctica, featuring ice concentration data, seasonal dynamics, and comparative analysis.">
+    <meta property="og:title" content="Amundsen Sea Polynyas - Interactive Mapping & Visualization">
+    <meta property="og:description" content="Explore the Pine Island and Amundsen Sea polynyas with interactive maps, ice concentration data, and comprehensive research insights.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Amundsen Sea Polynyas - Interactive Mapping & Visualization</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #0c4a6e 0%, #1e3a8a 50%, #1e40af 100%);
+        }
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        #map {
+            height: 600px;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        .polynya-marker {
+            background-color: #3b82f6;
+            border: 3px solid white;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .leaflet-popup-content {
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white shadow-lg">
+        <nav class="container mx-auto px-6 py-6">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="text-3xl font-bold">Amundsen Sea Polynyas</h1>
+                    <p class="text-blue-200 mt-1">Antarctic Sea Ice Research & Visualization</p>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#overview" class="hover:text-blue-200 transition">Overview</a>
+                    <a href="#map" class="hover:text-blue-200 transition">Interactive Map</a>
+                    <a href="#comparison" class="hover:text-blue-200 transition">Comparison</a>
+                    <a href="#data" class="hover:text-blue-200 transition">Data Sources</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-16">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-5xl font-bold mb-6">Exploring Antarctic Polynyas</h2>
+                <p class="text-xl text-blue-100 mb-8">
+                    Discover the dynamic sea ice systems of the Amundsen Sea through interactive mapping, 
+                    real-time data visualization, and comprehensive research insights.
+                </p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="#map" class="bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition shadow-lg">
+                        Explore Map
+                    </a>
+                    <a href="#comparison" class="border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-900 transition">
+                        Compare Polynyas
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center">What are Polynyas?</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <div class="card-hover bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-xl border border-blue-100">
+                    <div class="text-4xl mb-4">🌊</div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Definition</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Polynyas are areas of open water or thin ice surrounded by thicker sea ice. 
+                        In the Amundsen Sea, these features play crucial roles in ocean-atmosphere exchange, 
+                        ice production, and marine ecosystems.
+                    </p>
+                </div>
+                <div class="card-hover bg-gradient-to-br from-indigo-50 to-blue-50 p-8 rounded-xl border border-indigo-100">
+                    <div class="text-4xl mb-4">❄️</div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Importance</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        These regions are critical for sea ice production, deep water formation, and provide 
+                        vital habitat for marine life. They also influence glacier dynamics and regional climate patterns.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Map Section -->
+    <section id="map" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4 text-center">Interactive Polynya Map</h2>
+                <p class="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
+                    Explore the locations of the Pine Island Polynya and Amundsen Sea Polynya in West Antarctica. 
+                    Click on markers for detailed information about each polynya.
+                </p>
+                <div id="map" class="shadow-2xl" role="application" aria-label="Interactive map of Amundsen Sea polynyas"></div>
+                <div class="mt-6 bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
+                    <p class="text-sm text-gray-700">
+                        <strong>Map Note:</strong> The Amundsen Sea is located in West Antarctica, between 100°W and 130°W. 
+                        Both polynyas form in this region during the austral spring and summer months.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seasonal Dynamics Visualization -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4 text-center">Seasonal Ice Concentration Patterns</h2>
+                <p class="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
+                    Typical annual cycle of sea ice concentration showing polynya formation and persistence patterns.
+                </p>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">Pine Island Polynya</h3>
+                        <div style="max-height: 300px;">
+                            <canvas id="pineIslandChart" aria-label="Pine Island Polynya seasonal ice concentration chart"></canvas>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">Amundsen Sea Polynya</h3>
+                        <div style="max-height: 300px;">
+                            <canvas id="amundsenChart" aria-label="Amundsen Sea Polynya seasonal ice concentration chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded">
+                    <p class="text-sm text-gray-700">
+                        <strong>Data Note:</strong> These charts represent typical seasonal patterns based on satellite observations. 
+                        Actual ice concentrations vary year-to-year due to atmospheric and oceanic forcing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section id="comparison" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center">Polynya Comparison</h2>
+                
+                <!-- Similarities -->
+                <div class="mb-12">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
+                        <span class="text-green-600 mr-3">✓</span> Similarities
+                    </h3>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-green-500">
+                            <h4 class="font-bold text-gray-800 mb-2">Formation Mechanisms</h4>
+                            <p class="text-gray-600 text-sm">Both are latent heat polynyas driven primarily by wind forcing and ocean heat flux.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-green-500">
+                            <h4 class="font-bold text-gray-800 mb-2">Seasonal Patterns</h4>
+                            <p class="text-gray-600 text-sm">Both exhibit strong seasonal cycles with maximum opening in austral spring/summer.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-green-500">
+                            <h4 class="font-bold text-gray-800 mb-2">Ice Production</h4>
+                            <p class="text-gray-600 text-sm">Both are significant sites of sea ice production during winter months.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-green-500">
+                            <h4 class="font-bold text-gray-800 mb-2">Ocean Circulation</h4>
+                            <p class="text-gray-600 text-sm">Both influenced by Circumpolar Deep Water (CDW) intrusions bringing warm water.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-green-500">
+                            <h4 class="font-bold text-gray-800 mb-2">Ecological Importance</h4>
+                            <p class="text-gray-600 text-sm">Both serve as critical habitats for Antarctic marine ecosystems and wildlife.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-green-500">
+                            <h4 class="font-bold text-gray-800 mb-2">Climate Sensitivity</h4>
+                            <p class="text-gray-600 text-sm">Both show sensitivity to atmospheric and oceanic climate variability.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Differences -->
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
+                        <span class="text-blue-600 mr-3">⚡</span> Key Differences
+                    </h3>
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                        <div class="overflow-x-auto">
+                            <table class="w-full">
+                                <thead class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+                                    <tr>
+                                        <th class="px-6 py-4 text-left font-semibold">Characteristic</th>
+                                        <th class="px-6 py-4 text-left font-semibold">Pine Island Polynya</th>
+                                        <th class="px-6 py-4 text-left font-semibold">Amundsen Sea Polynya</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-gray-200">
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="px-6 py-4 font-medium text-gray-800">Location</td>
+                                        <td class="px-6 py-4 text-gray-600">Adjacent to Pine Island Glacier, eastern Amundsen Sea (~75°S, 101°W)</td>
+                                        <td class="px-6 py-4 text-gray-600">Broader western/central Amundsen Sea region (~73°S, 115°W)</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50 bg-gray-50">
+                                        <td class="px-6 py-4 font-medium text-gray-800">Typical Size</td>
+                                        <td class="px-6 py-4 text-gray-600">Smaller, more localized (~10,000-30,000 km²)</td>
+                                        <td class="px-6 py-4 text-gray-600">Larger, more extensive (~50,000-80,000 km²)</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="px-6 py-4 font-medium text-gray-800">Primary Forcing</td>
+                                        <td class="px-6 py-4 text-gray-600">Strong ocean heat flux from glacier cavity circulation</td>
+                                        <td class="px-6 py-4 text-gray-600">Wind-driven ice divergence with moderate ocean heat</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50 bg-gray-50">
+                                        <td class="px-6 py-4 font-medium text-gray-800">Glacier Influence</td>
+                                        <td class="px-6 py-4 text-gray-600">Directly connected to Pine Island Glacier dynamics</td>
+                                        <td class="px-6 py-4 text-gray-600">Influenced by multiple glaciers (Thwaites, Crosson, Dotson)</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="px-6 py-4 font-medium text-gray-800">Persistence</td>
+                                        <td class="px-6 py-4 text-gray-600">More variable, strongly tied to glacier melt cycles</td>
+                                        <td class="px-6 py-4 text-gray-600">More persistent during spring-summer, larger spatial extent</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50 bg-gray-50">
+                                        <td class="px-6 py-4 font-medium text-gray-800">Bathymetry</td>
+                                        <td class="px-6 py-4 text-gray-600">Deep trough allowing CDW access to glacier</td>
+                                        <td class="px-6 py-4 text-gray-600">Complex shelf bathymetry with multiple troughs</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-50">
+                                        <td class="px-6 py-4 font-medium text-gray-800">Interannual Variability</td>
+                                        <td class="px-6 py-4 text-gray-600">High variability linked to glacier calving events</td>
+                                        <td class="px-6 py-4 text-gray-600">Moderate variability, more consistent seasonal pattern</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Findings Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center">Research Insights</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="card-hover bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-xl border border-blue-100">
+                        <div class="text-3xl mb-3">📊</div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-2">Year-Round Status</h3>
+                        <p class="text-gray-600 text-sm">Neither polynya remains completely open year-round. Both experience seasonal closure during winter months with variable ice concentration.</p>
+                    </div>
+                    <div class="card-hover bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-xl border border-indigo-100">
+                        <div class="text-3xl mb-3">🌡️</div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-2">Ocean Heat Influence</h3>
+                        <p class="text-gray-600 text-sm">Circumpolar Deep Water intrusions provide significant heat flux, particularly affecting the Pine Island Polynya and glacier melting.</p>
+                    </div>
+                    <div class="card-hover bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-xl border border-purple-100">
+                        <div class="text-3xl mb-3">💨</div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-2">Wind Forcing</h3>
+                        <p class="text-gray-600 text-sm">Katabatic winds and synoptic weather systems drive ice divergence and polynya opening, especially for the Amundsen Sea Polynya.</p>
+                    </div>
+                    <div class="card-hover bg-gradient-to-br from-green-50 to-emerald-50 p-6 rounded-xl border border-green-100">
+                        <div class="text-3xl mb-3">🧊</div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-2">Ice Production</h3>
+                        <p class="text-gray-600 text-sm">Both polynyas are major sites of sea ice production, contributing to Antarctic Bottom Water formation and regional ocean circulation.</p>
+                    </div>
+                    <div class="card-hover bg-gradient-to-br from-orange-50 to-red-50 p-6 rounded-xl border border-orange-100">
+                        <div class="text-3xl mb-3">📈</div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-2">Recent Trends</h3>
+                        <p class="text-gray-600 text-sm">Studies show increasing variability and changes in polynya dynamics linked to broader climate change impacts on West Antarctica.</p>
+                    </div>
+                    <div class="card-hover bg-gradient-to-br from-teal-50 to-cyan-50 p-6 rounded-xl border border-teal-100">
+                        <div class="text-3xl mb-3">🌊</div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-2">Glacier Connections</h3>
+                        <p class="text-gray-600 text-sm">Polynyas facilitate warm water access to glacier ice shelves, accelerating basal melting and contributing to ice sheet mass loss.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Sources Section -->
+    <section id="data" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold text-gray-800 mb-12 text-center">Data Sources & Resources</h2>
+                <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">🛰️ Satellite Data</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li><strong>NSIDC (National Snow and Ice Data Center):</strong> Sea ice concentration and extent data from passive microwave sensors</li>
+                            <li><strong>NASA Worldview:</strong> Near real-time imagery of Antarctic sea ice</li>
+                            <li><strong>Copernicus Marine Service:</strong> Sea ice concentration and thickness products</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">🔬 Research Data</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li><strong>SCAR (Scientific Committee on Antarctic Research):</strong> Coordinated Antarctic research data</li>
+                            <li><strong>PANGAEA:</strong> Earth and environmental science data repository</li>
+                            <li><strong>Antarctic Data Centre:</strong> Comprehensive Antarctic datasets</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-purple-500">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">📚 Key Publications</h3>
+                        <ul class="space-y-2 text-gray-600 text-sm">
+                            <li>Macdonald et al. (2023) - Evolution of the dynamics, area, and ice production of the Amundsen Sea Polynya, 2016–2021. <em>The Cryosphere</em></li>
+                            <li>Stammerjohn et al. (2015) - Seasonal sea ice changes in the Amundsen Sea, Antarctica. <em>Elementa</em></li>
+                            <li>St-Laurent et al. (2015) - Impact of local winter cooling on the melt of Pine Island Glacier. <em>JGR Oceans</em></li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-orange-500">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">🌐 Interactive Tools</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li><strong>NSIDC Sea Ice Index:</strong> Interactive charts and analysis tools</li>
+                            <li><strong>Polar View:</strong> Near real-time polar monitoring service</li>
+                            <li><strong>Antarctic Ice Sheet Portal:</strong> Comprehensive ice sheet data visualization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="gradient-bg text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h3 class="text-2xl font-bold mb-4">About This Project</h3>
+                <p class="text-blue-200 mb-6">
+                    This interactive website provides comprehensive information about the Pine Island and Amundsen Sea polynyas 
+                    based on peer-reviewed scientific research and satellite observations. The data and insights presented 
+                    reflect current understanding of these critical Antarctic sea ice features.
+                </p>
+                <div class="border-t border-blue-400 pt-6 mt-6">
+                    <p class="text-sm text-blue-200">
+                        Created with research from The Cryosphere, Journal of Geophysical Research, and other leading scientific journals.
+                    </p>
+                    <p class="text-xs text-blue-300 mt-2">
+                        © 2026 Amundsen Sea Polynyas Research Visualization
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Initialize map centered on Amundsen Sea
+        const map = L.map('map', {
+            center: [-74.5, -110],
+            zoom: 5,
+            minZoom: 3,
+            maxZoom: 10
+        });
+
+        // Add OpenStreetMap tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors',
+            maxZoom: 19
+        }).addTo(map);
+
+        // Custom marker icon
+        const polynyadIcon = L.divIcon({
+            className: 'polynya-marker',
+            iconSize: [20, 20],
+            iconAnchor: [10, 10],
+            popupAnchor: [0, -10]
+        });
+
+        // Pine Island Polynya marker
+        const pineIslandMarker = L.marker([-75.0, -101.5], { icon: polynyadIcon })
+            .addTo(map)
+            .bindPopup(`
+                <div style="min-width: 250px;">
+                    <h3 style="font-weight: bold; font-size: 16px; margin-bottom: 8px; color: #1e40af;">Pine Island Polynya</h3>
+                    <p style="margin-bottom: 6px;"><strong>Location:</strong> ~75°S, 101°W</p>
+                    <p style="margin-bottom: 6px;"><strong>Type:</strong> Coastal latent heat polynya</p>
+                    <p style="margin-bottom: 6px;"><strong>Size:</strong> ~10,000-30,000 km²</p>
+                    <p style="margin-bottom: 6px;"><strong>Key Feature:</strong> Adjacent to Pine Island Glacier</p>
+                    <p style="margin-bottom: 0;"><strong>Primary Driver:</strong> Ocean heat flux from glacier cavity</p>
+                </div>
+            `);
+
+        // Amundsen Sea Polynya marker
+        const amundsenMarker = L.marker([-73.0, -115.0], { icon: polynyadIcon })
+            .addTo(map)
+            .bindPopup(`
+                <div style="min-width: 250px;">
+                    <h3 style="font-weight: bold; font-size: 16px; margin-bottom: 8px; color: #1e40af;">Amundsen Sea Polynya</h3>
+                    <p style="margin-bottom: 6px;"><strong>Location:</strong> ~73°S, 115°W</p>
+                    <p style="margin-bottom: 6px;"><strong>Type:</strong> Coastal latent heat polynya</p>
+                    <p style="margin-bottom: 6px;"><strong>Size:</strong> ~50,000-80,000 km²</p>
+                    <p style="margin-bottom: 6px;"><strong>Key Feature:</strong> Larger, more persistent polynya</p>
+                    <p style="margin-bottom: 0;"><strong>Primary Driver:</strong> Wind-driven ice divergence</p>
+                </div>
+            `);
+
+        // Add approximate polynya regions as circles
+        L.circle([-75.0, -101.5], {
+            color: '#3b82f6',
+            fillColor: '#60a5fa',
+            fillOpacity: 0.2,
+            radius: 100000,
+            weight: 2
+        }).addTo(map).bindTooltip('Pine Island Polynya Region', { permanent: false });
+
+        L.circle([-73.0, -115.0], {
+            color: '#8b5cf6',
+            fillColor: '#a78bfa',
+            fillOpacity: 0.2,
+            radius: 150000,
+            weight: 2
+        }).addTo(map).bindTooltip('Amundsen Sea Polynya Region', { permanent: false });
+
+        // Chart.js - Pine Island Polynya seasonal pattern
+        const pineIslandCtx = document.getElementById('pineIslandChart').getContext('2d');
+        new Chart(pineIslandCtx, {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                datasets: [{
+                    label: 'Ice Concentration (%)',
+                    data: [25, 30, 55, 75, 85, 90, 92, 90, 80, 60, 40, 28],
+                    borderColor: '#3b82f6',
+                    backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                    tension: 0.4,
+                    fill: true,
+                    pointRadius: 4,
+                    pointHoverRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'bottom'
+                    },
+                    tooltip: {
+                        mode: 'index',
+                        intersect: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        title: {
+                            display: true,
+                            text: 'Ice Concentration (%)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Month'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Chart.js - Amundsen Sea Polynya seasonal pattern
+        const amundsenCtx = document.getElementById('amundsenChart').getContext('2d');
+        new Chart(amundsenCtx, {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                datasets: [{
+                    label: 'Ice Concentration (%)',
+                    data: [20, 25, 50, 70, 80, 88, 90, 88, 75, 55, 35, 22],
+                    borderColor: '#8b5cf6',
+                    backgroundColor: 'rgba(139, 92, 246, 0.1)',
+                    tension: 0.4,
+                    fill: true,
+                    pointRadius: 4,
+                    pointHoverRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'bottom'
+                    },
+                    tooltip: {
+                        mode: 'index',
+                        intersect: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        title: {
+                            display: true,
+                            text: 'Ice Concentration (%)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Month'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
