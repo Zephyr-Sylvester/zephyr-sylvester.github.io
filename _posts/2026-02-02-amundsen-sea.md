@@ -46,6 +46,8 @@ Polynyas in the Amundsen Sea are largely seasonal and episodic rather than perma
 - **Episodic winter events** During winter, intense polynya activity and most ice production occur in concentrated months (notably April–May and September–October), though strong wind events can trigger additional winter openings [1].  
 - **Local trapping and closure** Ice produced within the polynya can become trapped nearby or advected back into it, which can lead to temporary closure and modulate the apparent persistence of open water [1].  
 
+To compare the two polynyas in the region, I did an experiment with an AI tool to build a comparison
+
 ----
 
 ## Key driving factors and recent trends

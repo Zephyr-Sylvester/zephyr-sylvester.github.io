@@ -13,7 +13,7 @@ Our paper **"Modeled connectivity of Antarctic krill spawning and nursery ground
 
 > Sylvester, Z.T., Dinniman, M.S., Thorpe, S.E., Bernard, K.S., Brooks, C.M. (2026). Modeled connectivity of Antarctic krill spawning and nursery grounds along the Western Antarctic Peninsula. *Marine Ecology Progress Series*, 779, meps15059. [https://doi.org/10.3354/meps15059](https://doi.org/10.3354/meps15059)
 
-Our goal was to model connectivity between spawning and nursery grounds of Antarctic krill and try to answer the question: **What areas are important for ontogenetic habitat partitioning in early life stages of krill and how does connectivity between regions influence broader population dynamics**
+Our goal was to model connectivity between spawning and nursery grounds of Antarctic krill and try to answer the questions: **What areas are important for ontogenetic habitat partitioning in early life stages of krill and how does connectivity between regions influence broader population dynamics**
 
 ---
 
@@ -127,7 +127,7 @@ This circumpolar model gave us the proof of concept: our model can simulate conn
 
 For more on the broader research program, see the [project page](/projects/krill-connectivity).
 
-also, if you can't access the paper but would like to read it, [send a request on research gate] (https://www.researchgate.net/publication/398451404_Modelled_connectivity_of_Antarctic_krill_spawning_and_nursery_grounds_along_the_Western_Antarctic_Peninsula) and I'll get you a copy!
+also, if you can't access the paper but would like to read it, [send a request on research gate](https://www.researchgate.net/publication/398451404_Modelled_connectivity_of_Antarctic_krill_spawning_and_nursery_grounds_along_the_Western_Antarctic_Peninsula) and I'll get you a copy!
 
 ---
 

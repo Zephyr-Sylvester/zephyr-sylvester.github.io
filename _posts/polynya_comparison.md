@@ -53,3 +53,25 @@ Researchers distinguish the two polynyas by geographic bounds, observational met
 - **Metric emphasis** Papers commonly distinguish polynyas using open‑water season length, mean/maximum area, ice‑production timing, net primary production per unit area, and carbon/CO2 flux during bloom events; the ASP is often singled out for its exceptionally high per‑area NPP and large central productive region [6] [2].  
 - **Methodological differences** High‑resolution SAR and daily sea‑ice products reveal detailed formation/closure dynamics (e.g., iceberg‑anchored formation in the ASP), while regional models and in situ observations (seal tags, hydrography) are used to quantify mixed‑layer evolution, heat budgets, and ice‑production rates [1] [5] [4].  
 - **Contextual framing** Some studies treat the ASP and PIP as distinct case studies of coastal polynyas with different dominant controls, while others analyze them together as components of the broader Amundsen Sea polynya system when assessing regional impacts on carbon, biogeochemistry, and ice‑shelf melt [2] [8].
+
+References
+[1]
+G. J. Macdonald, S. F. Ackley, and A. M. Mestas-Nuñez, “Evolution of the Amundsen Sea Polynya, Antarctica, 2016–2021,” The Cryosphere Discussions, pp. 1–33, Sept. 2021, doi: 10.5194/TC-2021-250.
+[2]
+G. J. Macdonald, “Reply on RC1,” June 2022, doi: 10.5194/tc-2022-51-ac1.
+[3]
+“Comment on tc-2022-51,” May 2022, doi: 10.5194/tc-2022-51-rc1.
+[4]
+G. J. Macdonald, S. F. Ackley, A. M. Mestas-Nuñez, and A. Blanco-Cabanillas, “Evolution of the dynamics, area, and ice production of the Amundsen Sea Polynya, Antarctica, 2016–2021,” The Cryosphere, vol. 17, no. 2, pp. 457–476, Feb. 2023, doi: 10.5194/tc-17-457-2023.
+[5]
+R. Jones, “Weather and climate in the Amundsen Sea Embayment, West Antartica: observations, reanalyses and high resolution modelling”, [Online]. Available: https://ueaeprints.uea.ac.uk/id/eprint/66998/
+[6]
+P. St-Laurent, J. M. Klinck, and M. S. Dinniman, “Impact of local winter cooling on the melt of Pine Island Glacier, Antarctica,” Journal of Geophysical Research, vol. 120, no. 10, pp. 6718–6732, Oct. 2015, doi: 10.1002/2015JC010709.
+[7]
+S. Stammerjohn et al., “Seasonal sea ice changes in the Amundsen Sea, Antarctica, over the period of 1979–2014,” vol. 3, no. 1, p. 000055, June 2015, doi: 10.12952/JOURNAL.ELEMENTA.000055.
+[8]
+G. J. Macdonald, “Reply on RC3,” Aug. 2022, doi: 10.5194/tc-2022-51-ac2.
+[9]
+A. S. Criscitiello et al., “Ice sheet record of recent sea-ice behavior and polynya variability in the Amundsen Sea, West Antarctica,” Journal of Geophysical Research, vol. 118, no. 1, pp. 118–130, Jan. 2013, doi: 10.1029/2012JC008077.
+[10]
+G. J. Macdonald, “Reply on RC1,” Aug. 2022, doi: 10.5194/tc-2022-51-ac4.
