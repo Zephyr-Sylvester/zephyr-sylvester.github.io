@@ -7,6 +7,8 @@ tags: [antarctica, krill, larvae, connectivity, ocean-modeling, western-antarcti
 categories: publications
 related_posts: false
 featured: true
+thumbnail: assets/img/projects/connectivity/meps-reference-map.png
+
 ---
 
 Our paper **"Modeled connectivity of Antarctic krill spawning and nursery grounds along the Western Antarctic Peninsula"** is out today in *Marine Ecology Progress Series*.

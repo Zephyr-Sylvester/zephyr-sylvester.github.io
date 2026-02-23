@@ -7,6 +7,8 @@ tags: [antarctica, krill, polynyas, marine-conservation, open-access]
 categories: publications
 related_posts: false
 featured: true
+thumbnail: assets/img/aev-inpress.png
+
 ---
 
 I am thrilled to share that a paper I helped write **"An Antarctic ecosystem value index to quantify ecological value across trophic levels and over time"** is now published in *Nature Communications*.
