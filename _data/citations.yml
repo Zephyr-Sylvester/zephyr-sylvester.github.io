@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-20'
+  last_updated: '2026-02-27'
 papers:
   eQVj_rMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -22,11 +22,11 @@ papers:
     title: Untangling the complexities of larval Antarctic krill overwintering success under climate change
     year: '2025'
   eQVj_rMAAAAJ:9yKSN-GCB0IC:
-    citations: 83
+    citations: 85
     title: Progress towards a representative network of Southern Ocean protected areas
     year: '2020'
   eQVj_rMAAAAJ:IjCSPb-OGe4C:
-    citations: 2
+    citations: 3
     title: Connections to tidal marsh and restored salt ponds drive seasonal and spatial variability in ecosystem metabolic rates in Lower South San Francisco Bay
     year: '2022'
   eQVj_rMAAAAJ:KlAtU1dfN6UC:
@@ -46,7 +46,7 @@ papers:
     title: Defining Antarctic polynyas in satellite observations and climate model output to support ecological climate change research
     year: '2024'
   eQVj_rMAAAAJ:Tyk-4Ss8FVUC:
-    citations: 46
+    citations: 47
     title: Climate drivers of Southern Ocean phytoplankton community composition and potential impacts on higher trophic levels
     year: '2022'
   eQVj_rMAAAAJ:ULOm3_A8WrAC:
@@ -54,7 +54,7 @@ papers:
     title: 'Dissolved oxygen in South San Francisco Bay: Variability, important processes, and implications for understanding fish habitat'
     year: '2018'
   eQVj_rMAAAAJ:UeHWp8X0CEIC:
-    citations: 140
+    citations: 141
     title: Simulations with the marine biogeochemistry library (MARBL)
     year: '2021'
   eQVj_rMAAAAJ:UebtZRa9Y70C:
@@ -85,6 +85,10 @@ papers:
     citations: 0
     title: Quantifying the value of Antarctic polynyas on the ecosystem from phytoplankton to penguins
     year: '2024'
+  eQVj_rMAAAAJ:_kc_bZDykSQC:
+    citations: 0
+    title: Modeled connectivity of Antarctic krill spawning and nursery grounds along the Western Antarctic Peninsula
+    year: '2026'
   eQVj_rMAAAAJ:d1gkVwhDpl0C:
     citations: 79
     title: 'Protecting Antarctica through co-production of actionable science: Lessons from the CCAMLR marine protected area process'
@@ -102,7 +106,7 @@ papers:
     title: Adjusting the management of the Antarctic krill fishery to meet the challenges of the 21st century
     year: '2025'
   eQVj_rMAAAAJ:qjMakFHDy7sC:
-    citations: 35
+    citations: 36
     title: Detecting climate signals in Southern Ocean krill growth habitat
     year: '2021'
   eQVj_rMAAAAJ:roLk4NBRz8UC:
