@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-02'
+  last_updated: '2026-03-13'
 papers:
   eQVj_rMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -13,6 +13,10 @@ papers:
     citations: 0
     title: 'Modelling Biophysical Interactions in the Polar Oceans: Ocean-Sea Ice Dynamics, Climate Sensitivity, and Ecosystem Response'
     year: Unknown Year
+  eQVj_rMAAAAJ:4TOpqqG69KYC:
+    citations: 0
+    title: "Ecological forecasts highlight opposing effects of long\u2010term climate change on population demography"
+    year: '2026'
   eQVj_rMAAAAJ:5nxA0vEk-isC:
     citations: 1
     title: 'Managing for climate resilient fisheries: Applications to the Southern Ocean'
@@ -22,7 +26,7 @@ papers:
     title: Untangling the complexities of larval Antarctic krill overwintering success under climate change
     year: '2025'
   eQVj_rMAAAAJ:9yKSN-GCB0IC:
-    citations: 85
+    citations: 86
     title: Progress towards a representative network of Southern Ocean protected areas
     year: '2020'
   eQVj_rMAAAAJ:IjCSPb-OGe4C:
@@ -42,11 +46,11 @@ papers:
     title: 'From Climate Trends to Krill Habitat: Modeling the Physical and Biological Drivers of Antarctic Ecosystem Change'
     year: '2025'
   eQVj_rMAAAAJ:Se3iqnhoufwC:
-    citations: 2
+    citations: 3
     title: Defining Antarctic polynyas in satellite observations and climate model output to support ecological climate change research
     year: '2024'
   eQVj_rMAAAAJ:Tyk-4Ss8FVUC:
-    citations: 46
+    citations: 47
     title: Climate drivers of Southern Ocean phytoplankton community composition and potential impacts on higher trophic levels
     year: '2022'
   eQVj_rMAAAAJ:ULOm3_A8WrAC:
@@ -106,7 +110,7 @@ papers:
     title: Adjusting the management of the Antarctic krill fishery to meet the challenges of the 21st century
     year: '2025'
   eQVj_rMAAAAJ:qjMakFHDy7sC:
-    citations: 36
+    citations: 37
     title: Detecting climate signals in Southern Ocean krill growth habitat
     year: '2021'
   eQVj_rMAAAAJ:roLk4NBRz8UC:
