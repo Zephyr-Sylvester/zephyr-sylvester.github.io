@@ -23,7 +23,7 @@ Our paper, published in *ICES Journal of Marine Science* in April 2025, takes a 
 
 ### The short version
 
-Winters with extensive sea ice have long been linked to strong krill recruitment the following spring. But *why*? Sea ice does a lot of things at once — it provides food (ice algae), shelter from predators (in ice terraces and under-ice habitat), and physical structure that shapes the water column. Untangling which of these mechanisms matters most, and how their loss will affect larval survival differently in different habitats, is exactly what this paper attempts.
+Winters with extensive sea ice have long been linked to strong krill recruitment the following spring. But *why*? Sea ice does a lot of things at once: it provides shelter from predators (in ice terraces and under-ice habitat), and food (via the ice functioning as substrate for sea ice algae) to grow on. Untangling which of these mechanisms matters most, and how their loss will affect larval survival differently in different habitats, is exactly what this paper attempts.
 
 We used a **qualitative network model (QNM)**: a framework that lets you integrate both well-established and hypothesized ecological interactions and test what the system predicts under different scenarios, even when you don't have the quantitative data to parameterize a full simulation model.
 
@@ -85,7 +85,7 @@ This is what makes winter the critical bottleneck for recruitment. For larval kr
 
 ## What mechanisms control overwinter survival?
 
-Food and shelter — that's the short answer. Sea ice facilitates larval overwinter survival and subsequent recruitment by providing both.
+Food and shelter, that's the short answer. Sea ice facilitates larval overwinter survival and subsequent recruitment by providing both.
 
 During the winter months, a larval krill's ability to survive comes down to two things: access to a food source, and the ability to avoid predation. In years with extensive, stable sea ice, there are often strong recruitment classes the following spring. The prevailing paradigm in krill biology therefore centers on how sea ice habitat makes larval overwinter survival possible. 
 
@@ -222,7 +222,7 @@ available in autumn means larvae arrive at winter already behind.
 ## How can we improve our understanding of larval overwintering?
 
 This highlights how a single hypothesized mechanism can invert baseline 
-projections — and underscores the importance of refining our understanding 
+projections. This underscores the importance of refining our understanding 
 of the processes linking sea ice features, predator avoidance, and larval 
 krill performance.
 
