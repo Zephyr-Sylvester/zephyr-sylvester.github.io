@@ -5,7 +5,7 @@ description: A tool for exploring Antarctic ecosystem value, now and into the fu
 img: assets/img/projects/aev/IMG_2623-ZTS-ice-edge-ice-wall.jpg
 importance: 1
 category: research
-related_publications: true
+related_publications: false
 tabs: true
 ---
 
@@ -327,15 +327,17 @@ Media produced and featured on the OnlyOne project page are the work of photogra
 
 ### Publications from This Project
 
-**Primary paper:**
+**Primary papers:**
 
 DuVivier, A.K., Krumhardt, K., Landrum, L.L., Sylvester, Z. et al. (2026). An Antarctic ecosystem value index to quantify ecological value across trophic levels and over time. *Nature Communications.* [https://doi.org/10.1038/s41467-026-69011-0](https://doi.org/10.1038/s41467-026-69011-0)
 
-**Companion methods paper:**
 
-Landrum, L.L., DuVivier, A.K., Holland, M.M., Krumhardt, K., and Sylvester, Z. (in press). Defining Antarctic polynyas in satellite observations and climate model output to support ecological climate change research. *The Cryosphere.* [https://doi.org/10.5194/egusphere-2024-3490](https://doi.org/10.5194/egusphere-2024-3490)
+Landrum, L.L., DuVivier, A.K., Holland, M.M., Krumhardt, K., and Sylvester, Z. (2026). Defining Antarctic polynyas in satellite observations and climate model output to support ecological climate change research. *The Cryosphere.* [https://doi.org/10.5194/egusphere-2024-3490](https://doi.org/10.5194/egusphere-2024-3490)
 
-**Related observational work:**
+**Related work:**
+
+Ventura F, Sen B, Che-Castaldo C,  Barbraud, C., Delord, K., Krumhardt, K., Holland, M., Landrum, L., Sylvester, Z., Lukacs, P., and Jenouvrier, S. (2026). Ecological forecasts highlight opposing effects of long-term climate change on population demography. *Ecology*. [https://doi.org/10.1002/ecy.70330](https://doi.org/10.1002/ecy.70330).
+
 
 Bourreau, L., Pauthenet, E., Le Ster, L., Picard, B., Portela, E., Sallée, J-B., McMahon, C.R., Harcourt, R., Hindell, M., Guinet, C., Bestley, S., Charrassin, J-B., DuVivier, A., Sylvester, Z., Krumhardt, K., Jenouvrier, S., and Labrousse, S. (2023). First description of *in situ* chlorophyll fluorescence signal within East Antarctic coastal polynyas during fall and winter. *Frontiers in Marine Science.* [https://doi.org/10.3389/fmars.2023.1186403](https://doi.org/10.3389/fmars.2023.1186403)
 

@@ -5,7 +5,7 @@ description: Modeling how ocean currents, biology, and sea ice shape the early l
 img: assets/img/projects/connectivity/Ascent-descent_Model copy.png
 importance: 1
 category: research
-related_publications: true
+related_publications: false
 tabs: true
 ---
 
@@ -103,14 +103,12 @@ This research program operates at two model resolutions, each serving a differen
 - ERA5 atmospheric forcing from ECMWF
 - Drifters released on a 25x25 km grid across the Southern Ocean
 - Simulated 2016-2019 austral summers
-- Established connectivity patterns and identified key dynamics
 
-**High-resolution regional model** (in progress)
+**High-resolution regional model** (in prep)
 - Western Antarctic Peninsula ROMS, ~1.5 km grid spacing
 - Resolves mesoscale and submesoscale circulation
 - Atmospheric (ERA5), oceanic boundary conditions, tidal forcing
 - Simulated 2016-2019 austral summers with additional existing runs from 2006-2012
-- Hundreds of thousands of drifters per simulation
 
 #### What makes this approach different
 
@@ -141,38 +139,25 @@ The analysis framework separates data processing from visualization to allow fle
 
 
 {% endtab %}
+{% endtabs %}
 
-{% tab connectivity_project What's Next %}
+---
 
-### Research roadmap
+## On the horizon
 
 This work is actively developing. Here's where it's headed.
 
-#### Completed
-- ✅ Circumpolar ROMS simulations establishing proof of concept (2016-2019)
-- ✅ First paper published: [Sylvester et al. 2026, MEPS](https://doi.org/10.3354/meps15059)
-- ✅ High-resolution regional ROMS simulations for select years
-- ✅ Particle tracking experiments with descent-ascent biology and varying embryo sizes
-- ✅ Connectivity analysis between four nursery regions (BS, GERL, GP, MB)
-
 #### In progress
-- 🔨 **Regional boundary refinement:** moving from simple box-based nursery definitions to oceanographically meaningful boundaries that follow natural features like bathymetric contours, shelf breaks, and coastlines
-- 🔨 **Connectivity matrix development:** building source-destination matrices resolved by larval developmental stage and seasonal release timing
-- 🔨 **Export vs. retention analysis:** distinguishing larvae that exit the model domain (true exports) from those completing full simulations (retained populations), with attention to early mortality events like bottom strikes before hatching
-
-#### Planned
-- 📋 **Sea ice advection:** incorporating sea ice data to model how near-surface larvae may be transported by ice during winter. Recent analysis has revealed strong seasonal patterns in near-surface behavior, with late-season releases (February through March) spending substantially more time near the surface, making them prime candidates for ice-mediated transport.
-- 📋 **Extended time series:** running ROMS for additional years to fill gaps in coverage and strengthen interannual variability analysis.Each new model year adds another realization of wind-driven variability, strengthening our ability to characterize the range of connectivity patterns larvae experience.
-- 📋 **Multi-year connectivity synthesis:** combining all available years into a comprehensive picture of connectivity reliability and variability across the wAP.
+- 📋 **Sea ice advection analysis**
+- 📋 **Extended time series**
+- 📋 **Multi-year connectivity synthesis**
 
 #### Future directions
 - 🔭 **Climate scenario projections:** using the validated connectivity framework to explore how projected changes in circulation, wind patterns, and sea ice could affect larval supply pathways
 - 🔭 **Integration with recruitment dynamics:** connecting physical connectivity to biological survival
 - 🔭 **Management applications:** translating connectivity patterns into spatially explicit information relevant for CCAMLR MPA planning in Domain 1
 
-{% endtab %}
 
-{% endtabs %}
 
 ---
 
