@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-06'
+  last_updated: '2026-05-04'
 papers:
   eQVj_rMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -12,6 +12,10 @@ papers:
   eQVj_rMAAAAJ:3fE2CSJIrl8C:
     citations: 0
     title: 'Modelling Biophysical Interactions in the Polar Oceans: Ocean-Sea Ice Dynamics, Climate Sensitivity, and Ecosystem Response'
+    year: Unknown Year
+  eQVj_rMAAAAJ:4DMP91E08xMC:
+    citations: 0
+    title: 'Supplementary Material: An Antarctic ecosystem value index to quantify ecological value across trophic levels and over time'
     year: Unknown Year
   eQVj_rMAAAAJ:4TOpqqG69KYC:
     citations: 0
@@ -26,7 +30,7 @@ papers:
     title: Untangling the complexities of larval Antarctic krill overwintering success under climate change
     year: '2025'
   eQVj_rMAAAAJ:9yKSN-GCB0IC:
-    citations: 88
+    citations: 89
     title: Progress towards a representative network of Southern Ocean protected areas
     year: '2020'
   eQVj_rMAAAAJ:IjCSPb-OGe4C:
@@ -50,7 +54,7 @@ papers:
     title: 'From Climate Trends to Krill Habitat: Modeling the Physical and Biological Drivers of Antarctic Ecosystem Change'
     year: '2025'
   eQVj_rMAAAAJ:Se3iqnhoufwC:
-    citations: 3
+    citations: 4
     title: Defining Antarctic polynyas in satellite observations and climate model output to support ecological climate change research
     year: '2024'
   eQVj_rMAAAAJ:Tyk-4Ss8FVUC:
@@ -62,7 +66,7 @@ papers:
     title: 'Dissolved oxygen in South San Francisco Bay: Variability, important processes, and implications for understanding fish habitat'
     year: '2018'
   eQVj_rMAAAAJ:UeHWp8X0CEIC:
-    citations: 148
+    citations: 152
     title: Simulations with the marine biogeochemistry library (MARBL)
     year: '2021'
   eQVj_rMAAAAJ:UebtZRa9Y70C:
@@ -97,8 +101,12 @@ papers:
     citations: 0
     title: Modeled connectivity of Antarctic krill spawning and nursery grounds along the Western Antarctic Peninsula
     year: '2026'
+  eQVj_rMAAAAJ:aqlVkmm33-oC:
+    citations: 0
+    title: Defining Coastal Antarctic polynyas in satellite observations and climate model output to support ecological climate change research
+    year: Unknown Year
   eQVj_rMAAAAJ:d1gkVwhDpl0C:
-    citations: 79
+    citations: 80
     title: 'Protecting Antarctica through co-production of actionable science: Lessons from the CCAMLR marine protected area process'
     year: '2020'
   eQVj_rMAAAAJ:eQOLeE2rZwMC:
@@ -110,11 +118,11 @@ papers:
     title: Using Self Organizing Maps to Project Policy Relevant Changes in Coastal Antarctic Sea Ice in the Ross Sea
     year: '2022'
   eQVj_rMAAAAJ:kNdYIx-mwKoC:
-    citations: 2
+    citations: 3
     title: Adjusting the management of the Antarctic krill fishery to meet the challenges of the 21st century
     year: '2025'
   eQVj_rMAAAAJ:qjMakFHDy7sC:
-    citations: 38
+    citations: 37
     title: Detecting climate signals in Southern Ocean krill growth habitat
     year: '2021'
   eQVj_rMAAAAJ:qxL8FJ1GzNcC:
@@ -122,7 +130,7 @@ papers:
     title: Challenges in identifying Antarctic coastal polynyas in satellite observations and climate model output to support ecological climate change research
     year: '2026'
   eQVj_rMAAAAJ:roLk4NBRz8UC:
-    citations: 19
+    citations: 20
     title: Whale recovery and the emerging human-wildlife conflict over Antarctic krill
     year: '2024'
   eQVj_rMAAAAJ:u-x6o8ySG0sC:
@@ -134,10 +142,10 @@ papers:
     title: Dissolved Oxygen in South San Francisco Bay
     year: '2018'
   eQVj_rMAAAAJ:ufrVoPGSRksC:
-    citations: 10
+    citations: 11
     title: 'Observing change in pelagic animals as sampling methods shift: the case of Antarctic krill'
     year: '2024'
   eQVj_rMAAAAJ:zYLM7Y9cAGgC:
-    citations: 16
+    citations: 17
     title: 'Managing for climate resilient fisheries: Applications to the Southern Ocean'
     year: '2023'
