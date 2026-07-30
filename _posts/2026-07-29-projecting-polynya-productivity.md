@@ -6,7 +6,7 @@ description: "Companion notes for my SCAR OSC 2026 conference poster."
 tags: [antarctica, sea ice, polynyas, productivity, climate]
 categories: logbook
 related_posts: true
-featured: false
+featured: true
 thumbnail: assets/img/logbook/scarosc2026-thumb.png
 ---
 
