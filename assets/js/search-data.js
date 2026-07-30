@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-research-note-sea-ice-polynyas-and-productivity",
+        },{id: "post-sea-ice-polynyas-and-productivity",
         
-          title: "Research Note: Sea Ice, Polynyas, and Productivity",
+          title: "Sea Ice, Polynyas, and Productivity",
         
         description: "Companion notes for my SCAR OSC 2026 conference poster.",
         section: "Posts",
