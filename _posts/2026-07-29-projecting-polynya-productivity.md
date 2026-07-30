@@ -23,10 +23,14 @@ View the poster below, or download the full-resolution PDF.
 
 [Download Poster (PDF)](/assets/pdfs/ZSylvester-2026-SCAR-OSC-Poster467-LifeSciences-S25.pdf)
 
-{% include pdf.liquid
-    path="assets/pdfs/ZSylvester-2026-SCAR-OSC-Poster467-LifeSciences-S25.pdf"
-    title="Sea Ice, Polynyas, and Productivity"
-%}
+<iframe
+  src="/assets/pdfs/ZSylvester-2026-SCAR-OSC-Poster467-LifeSciences-S25.pdf"
+  width="100%"
+  height="900"
+  style="border: 1px solid #ddd;"
+  loading="lazy">
+</iframe>
+
 
 ---
 
