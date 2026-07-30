@@ -20,9 +20,10 @@ The poster presents the main results. This page provides additional context, exp
 ## Poster
 
 
-View the poster below, or download the image version.
+View the poster below, or download the PDF.
 
-[Download Poster (PNG)]({{ '/assets/img/logbook/scarosc2026/Poster467-LifeSciences-S25.png' | relative_url }})
+[Download Poster (PDF)]({{ '/assets/pdfs/ZSylvester-2026-SCAR-OSC-Poster467-LifeSciences-S25.pdf' | relative_url }})
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -86,6 +87,8 @@ This work asks whether polynyas remain biological hotspots in a warmer climate, 
 
 {% endtabs %}
 
+---
+
 ## Why the Amundsen Sea?
 
 To answer this question I examined productivity at several spatial scales, beginning with a circumpolar assessment before focusing on the Amundsen Sea as a regional case study.
@@ -104,6 +107,7 @@ Together, these characteristics make it an ideal region for exploring how change
     Amundsen Sea Region: CESM2-ME projected SIZ and polynya boundaries in the 2010's vs the 2090's
 </div>
 
+---
 
 ## Methods
 
@@ -192,6 +196,8 @@ I then focused on the Amundsen Sea, comparing seasonal cycles within coastal pol
 
 {% endtabs %}
 
+---
+
 ## Results
 
 At the circumpolar scale, the seasonal sea ice zone decreases in area across much of Antarctica, while changes in polynya extent vary among regions. Productivity also changes differently among regions, motivating a closer look at individual systems.
@@ -203,6 +209,8 @@ The response of mesozooplankton is different.
 Although the difference in primary productivity between polynyas and the seasonal sea ice zone becomes smaller, the difference in mesozooplankton production becomes larger. Production within the seasonal sea ice zone increases later in summer before declining rapidly in autumn, whereas production within polynyas remains elevated for longer.
 
 Because biomass integrates production through time, this seasonal persistence results in substantially higher mesozooplankton biomass entering winter within polynya regions.
+
+---
 
 ## Discussion
 
