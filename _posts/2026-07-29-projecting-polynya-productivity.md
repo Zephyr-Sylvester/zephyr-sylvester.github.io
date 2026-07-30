@@ -7,6 +7,7 @@ tags: [antarctica, sea ice, polynyas, productivity, climate]
 categories: logbook
 related_posts: true
 featured: true
+tabs: true
 thumbnail: assets/img/logbook/scarosc2026/scarosc2026-thumb.png
 ---
 
@@ -21,19 +22,16 @@ The poster presents the main results. This page provides additional context, exp
 
 View the poster below, or download the full-resolution PDF.
 
-<object data="/assets/pdfs/ZSylvester-2026-SCAR-OSC-Poster467-LifeSciences-S25.pdf"
-        type="application/pdf"
-        width="100%"
-        height="900">
-  <p>
-    Your browser does not support embedded PDFs.
-    <a href="/assets/pdfs/ZSylvester-2026-SCAR-OSC-Poster467-LifeSciences-S25.pdf">
-      Download the poster PDF.
-    </a>
-  </p>
-</object>
+[Download Poster (PDF)]({{ '/assets/pdfs/ZSylvester-2026-SCAR-OSC-Poster467-LifeSciences-S25.pdf' | relative_url }})
 
 
+<iframe
+  src="{{ '/assets/pdfs/ZSylvester-2026-SCAR-OSC-Poster467-LifeSciences-S25.pdf' | relative_url }}"
+  width="100%"
+  height="900"
+  style="border:1px solid #ddd;"
+  loading="lazy">
+</iframe>
 
 
 ---
