@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Research Note: Sea Ice, Polynyas, and Productivity"
-date: 2026-08-01
+date: 2026-07-29
 description: "Companion notes for my SCAR OSC 2026 conference poster."
 tags: [antarctica, sea ice, polynyas, productivity, climate]
 categories: logbook
@@ -62,7 +62,7 @@ Polynya locations were identified using October sea ice conditions. Cells with a
 
 These definitions follow the broader AEV framework and allow equivalent regions to be compared through time.
 
-*(Link to the Cryosphere methods paper.)*
+*[Cryosphere methods paper](https://tc.copernicus.org/articles/20/1815/2026/tc-20-1815-2026.pdf)*
 
 ### Analysis
 
