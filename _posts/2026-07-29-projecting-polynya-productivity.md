@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Research Note: Sea Ice, Polynyas, and Productivity"
+title: "Sea Ice, Polynyas, and Productivity"
 date: 2026-07-29
 description: "Companion notes for my SCAR OSC 2026 conference poster."
 tags: [antarctica, sea ice, polynyas, productivity, climate]
@@ -11,7 +11,7 @@ tabs: true
 thumbnail: assets/img/logbook/scarosc2026/scarosc2026-thumb.png
 ---
 
-This page accompanies my poster, “Sea Ice, Polynyas, and Productivity”, presented at the 2026 SCAR Open Science Conference in Oslo in the Life Sciences Session 25, Poster 467 on Thursday August 13, 2026.
+This page provides the narrative and details for my poster, “Sea Ice, Polynyas, and Productivity”, presented at the 2026 SCAR Open Science Conference in Oslo in the Life Sciences Session 25, Poster 467 on Thursday August 13, 2026.
 
 The poster presents the main results. This page provides additional context, expanded methods, and discussion that could not fit within the space available on the poster. As the work progresses through manuscript preparation, I will continue updating this page.
 
