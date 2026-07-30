@@ -22,11 +22,11 @@ The poster presents the main results. This page provides additional context, exp
 
 View the poster below, or download the image version.
 
-[Download Poster (PNG)]({{ '/assets/img/logbook/scarosc2026/projecting-polynya-productivity.png' | relative_url }})
+[Download Poster (PNG)]({{ '/assets/img/logbook/scarosc2026/Poster467-LifeSciences-S25.png' | relative_url }})
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/logbook/scarosc2026/projecting-polynya-productivity.png" title="SCAR 2026 poster" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/logbook/scarosc2026/Poster467-LifeSciences-S25.png" title="SCAR 2026 poster" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -44,7 +44,7 @@ The broader project asks where ecological value is concentrated around Antarctic
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/assets/img/logbook/scarosc2026/polynya-diagram-spring.png" title="Typical Polynya" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/logbook/scarosc2026/polynya-diagram-spring.png" title="Typical Polynya" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -97,7 +97,7 @@ Together, these characteristics make it an ideal region for exploring how change
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/assets/img/logbook/scarosc2026/ASR-ref-map.png" title="Amundsen Sea Reference" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/logbook/scarosc2026/ASR-ref-map.png" title="Amundsen Sea Reference" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -147,7 +147,7 @@ Together these variables distinguish between the ecosystem's functional state (p
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/assets/img/logbook/scarosc2026/MARBL-trophics.png" title="4P2Z Ecosystem" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/logbook/scarosc2026/MARBL-trophics.png" title="4P2Z Ecosystem" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -169,7 +169,7 @@ October was chosen because it represents the transition between winter and sprin
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/assets/img/logbook/scarosc2026/Figure-ASR-Reference-2010to2090.png" title="Amundsen Sea Projected Sea Ice" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/logbook/scarosc2026/Figure-ASR-Reference-2010to2090.png" title="Amundsen Sea Projected Sea Ice" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -216,7 +216,7 @@ This shift has important implications for Antarctic krill and the predators that
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/assets/img/logbook/scarosc2026/polynya-diagram-winter.png" title="Future Polynya Winter Role" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/logbook/scarosc2026/polynya-diagram-winter.png" title="Future Polynya Winter Role" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
