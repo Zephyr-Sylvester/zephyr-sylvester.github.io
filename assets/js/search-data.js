@@ -63,7 +63,7 @@ ninja.data = [{
         
           title: "Our Antarctic Ecosystem Value Index is published in Nature Communications",
         
-        description: "Mapping the ecological hotspots of Antarctica — present and future.",
+        description: "Mapping the ecological hotspots of Antarctica, present and future.",
         section: "Posts",
         handler: () => {
           
