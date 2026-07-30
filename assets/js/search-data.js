@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-mapping-how-krill-larvae-get-from-spawning-grounds-to-nurseries-along-the-antarctic-peninsula",
+        },{id: "post-research-note-sea-ice-polynyas-and-productivity",
+        
+          title: "Research Note: Sea Ice, Polynyas, and Productivity",
+        
+        description: "Companion notes for my SCAR OSC 2026 conference poster.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/projecting-polynya-productivity/";
+          
+        },
+      },{id: "post-mapping-how-krill-larvae-get-from-spawning-grounds-to-nurseries-along-the-antarctic-peninsula",
         
           title: "Mapping how krill larvae get from spawning grounds to nurseries along the Antarctic...",
         
