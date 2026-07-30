@@ -20,18 +20,18 @@ The poster presents the main results. This page provides additional context, exp
 ## Poster
 
 
-View the poster below, or download the full-resolution PDF.
+View the poster below, or download the image version.
 
-[Download Poster (PDF)]({{ '/assets/pdfs/ZSylvester-2026-SCAR-OSC-Poster467-LifeSciences-S25.pdf' | relative_url }})
+[Download Poster (PNG)]({{ '/assets/img/logbook/scarosc2026/projecting-polynya-productivity.png' | relative_url }})
 
-
-<iframe
-  src="{{ '/assets/pdfs/ZSylvester-2026-SCAR-OSC-Poster467-LifeSciences-S25.pdf' | relative_url }}"
-  width="100%"
-  height="900"
-  style="border:1px solid #ddd;"
-  loading="lazy">
-</iframe>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/logbook/scarosc2026/projecting-polynya-productivity.png" title="SCAR 2026 poster" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    SCAR 2026 poster, “Sea Ice, Polynyas, and Productivity: The Evolving Role of Polynyas in the Southern Ocean.”
+</div>
 
 
 ---
@@ -228,31 +228,27 @@ This shift has important implications for Antarctic krill and the predators that
 
 ## Relation to the Antarctic Ecosystem Value project
 
-This analysis represents one component of the broader Antarctic Ecosystem Value project.
+This work forms part of the broader **Antarctic Ecosystem Value (AEV) Project**, a NASA Applied Sciences collaboration investigating how Antarctic ecosystems may respond to future climate change.
 
-The AEV Index integrates physical, biological, and predator datasets to identify regions of high ecological value around Antarctica and project how those regions may change under future climate scenarios. Understanding how polynyas influence lower trophic levels provides part of the ecological foundation for that broader assessment.
+The studies within the project build on one another. The physical foundation was established by **Landrum et al. (2026)**, which developed a consistent framework for identifying Antarctic coastal polynyas in both satellite observations and Earth System Models. This study builds directly on that work by examining how the ecological role of those polynyas may change under future climate scenarios. Together with other analyses from the project, these results contributed to the development of the **Antarctic Ecosystem Value Index**, published by **DuVivier et al. (2026)**.
 
-Further information is available on the project page:
+If you'd like to explore the broader project, the interactive tools, or the published papers, visit the [Hot Spots in the Ice](/projects/hotspots-in-the-ice) project page.
 
-- Hot Spots in the Ice
-- Antarctic Ecosystem Value interactive map
-- Index Comparison Tool
 
----
+The physical foundation was established by
+[**Landrum et al. (2026). _Defining Antarctic coastal polynyas in satellite observations and climate model output to support ecological climate change research._**](https://doi.org/10.5194/tc-20-123-2026)
 
-## Current Status
+...
 
-Analysis completed: 2025
+Together with other analyses from the project, these results contributed to
+[**DuVivier et al. (2026). _An Antarctic ecosystem value index to quantify ecological value across trophic levels and over time._**](https://doi.org/10.1038/s41467-026-69011-0)
 
-Presented at SCAR Open Science Conference 2026.
-
-Manuscript in preparation.
 
 ---
 
 ## Acknowledgements
 
-This work was supported by NASA Applied Sciences, Biodiversity and Ecological Forecasting (Grant 80NSSC21K1132).
+This work was supported by NASA Applied Sciences, Biodiversity and Ecological Forecasting (Grant 80NSSC21K1132). The manuscript in preparation.
 
 Collaborators:
 
