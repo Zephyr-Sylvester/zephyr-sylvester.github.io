@@ -6,7 +6,7 @@ description: "A qualitative network model reveals habitat-specific winners and l
 tags: [antarctica, krill, sea-ice, recruitment, climate-change, southern-ocean]
 categories: publications
 related_posts: false
-featured: true
+featured: false
 thumbnail: assets/img/projects/overwintering/untangling-infographic.jpg
 
 ---
