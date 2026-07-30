@@ -42,6 +42,16 @@ This work is one component of the broader Antarctic Ecosystem Value (AEV) Projec
 
 The broader project asks where ecological value is concentrated around Antarctica and how those patterns may change through the end of the century. This study focuses on one part of that problem by examining how changing sea ice alters the ecological role of coastal polynyas within the marine food web.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/assets/img/logbook/scarosc2026/polynya-diagram-spring.png" title="Typical Polynya" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Polynya - origin: Russian - meaning 'hole in the ice'
+</div>
+
+
 ---
 
 {% tabs sea_ice_polynyas %}
@@ -83,6 +93,17 @@ To answer this question I examined productivity at several spatial scales, begin
 The Amundsen Sea is one of the most rapidly changing regions of Antarctica. It is experiencing substantial sea ice loss, rapid glacial change, and contains two highly productive coastal polynyas: the Pine Island Polynya and the Amundsen Sea Polynya. Climate projections also suggest that the region may become increasingly favourable habitat for Antarctic krill.
 
 Together, these characteristics make it an ideal region for exploring how changes in sea ice may alter the ecological role of polynyas.
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/assets/img/logbook/scarosc2026/ASR-ref-map.png" title="Amundsen Sea Reference" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Amundsen Sea Region: CESM2-ME projected SIZ and polynya boundaries in the 2010's vs the 2090's
+</div>
+
 
 ## Methods
 
@@ -192,6 +213,15 @@ Today, polynyas are recognised primarily because they initiate production early 
 Rather than functioning primarily as spring hotspots, polynyas may increasingly become overwintering hotspots that maintain food availability after production in the surrounding seasonal sea ice zone has declined.
 
 This shift has important implications for Antarctic krill and the predators that depend upon them.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/assets/img/logbook/scarosc2026/polynya-diagram-winter.png" title="Future Polynya Winter Role" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The role of polynyas in the wintertime may become amplified in the Amundsen Sea Region in the future
+</div>
 
 
 ---
