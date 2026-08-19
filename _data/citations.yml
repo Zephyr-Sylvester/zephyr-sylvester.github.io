@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-29'
+  last_updated: '2026-08-03'
 papers:
   eQVj_rMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -30,7 +30,7 @@ papers:
     title: Untangling the complexities of larval Antarctic krill overwintering success under climate change
     year: '2025'
   eQVj_rMAAAAJ:9yKSN-GCB0IC:
-    citations: 92
+    citations: 90
     title: Progress towards a representative network of Southern Ocean protected areas
     year: '2020'
   eQVj_rMAAAAJ:IjCSPb-OGe4C:
@@ -54,11 +54,11 @@ papers:
     title: 'From Climate Trends to Krill Habitat: Modeling the Physical and Biological Drivers of Antarctic Ecosystem Change'
     year: '2025'
   eQVj_rMAAAAJ:Se3iqnhoufwC:
-    citations: 4
-    title: Defining Antarctic polynyas in satellite observations and climate model output to support ecological climate change research
+    citations: 5
+    title: Defining antarctic polynyas in satellite observations and climate model output to support ecological climate change research
     year: '2024'
   eQVj_rMAAAAJ:Tyk-4Ss8FVUC:
-    citations: 56
+    citations: 58
     title: Climate drivers of Southern Ocean phytoplankton community composition and potential impacts on higher trophic levels
     year: '2022'
   eQVj_rMAAAAJ:ULOm3_A8WrAC:
@@ -66,7 +66,7 @@ papers:
     title: 'Dissolved oxygen in South San Francisco Bay: Variability, important processes, and implications for understanding fish habitat'
     year: '2018'
   eQVj_rMAAAAJ:UeHWp8X0CEIC:
-    citations: 159
+    citations: 161
     title: Simulations with the marine biogeochemistry library (MARBL)
     year: '2021'
   eQVj_rMAAAAJ:UebtZRa9Y70C:
@@ -77,6 +77,10 @@ papers:
     citations: 0
     title: The impact of simulated diel vertical migration and sea ice drift on the connectivity ofAntarctic krill around the Southern Ocean
     year: '2024'
+  eQVj_rMAAAAJ:Wp0gIr-vW9MC:
+    citations: 5
+    title: (MARBL), J. Adv. Model. Earth Sy., 13, e2021MS002647
+    year: Unknown Year
   eQVj_rMAAAAJ:Y0pCki6q_DkC:
     citations: 0
     title: Defining Antarctic Coastal Polynyas for Climate Change Research in Satellite Observations and Climate Models
@@ -90,7 +94,7 @@ papers:
     title: Using Satellite Observations and Earth System Models to Reveal Biological Hotspots in Coastal Antarctica
     year: '2022'
   eQVj_rMAAAAJ:Zph67rFs4hoC:
-    citations: 1
+    citations: 0
     title: 'CESM2 and CESM1 data supporting Long et al.(2021): Simulations with the Marine Biogeochemistry Library'
     year: '2025'
   eQVj_rMAAAAJ:_FxGoFyzp5QC:
@@ -107,7 +111,7 @@ papers:
     year: Unknown Year
   eQVj_rMAAAAJ:d1gkVwhDpl0C:
     citations: 86
-    title: 'Protecting Antarctica through co-production of actionable science: Lessons from the CCAMLR marine protected area process'
+    title: 'Protecting Antarctica through Co-production of actionable science: Lessons from the CCAMLR marine protected area process'
     year: '2020'
   eQVj_rMAAAAJ:eQOLeE2rZwMC:
     citations: 6
@@ -121,22 +125,22 @@ papers:
     citations: 8
     title: Adjusting the management of the Antarctic krill fishery to meet the challenges of the 21st century
     year: '2025'
+  eQVj_rMAAAAJ:mVmsd5A6BfQC:
+    citations: 0
+    title: "Modeling Biophysical Interactions in the Polar Oceans Across Spatial Scales: Ocean\xE2 Sea Ice Dynamics, Climate Sensitivity, and Ecosystem Response I Poster"
+    year: '2026'
   eQVj_rMAAAAJ:qjMakFHDy7sC:
     citations: 39
     title: Detecting climate signals in Southern Ocean krill growth habitat
     year: '2021'
   eQVj_rMAAAAJ:qxL8FJ1GzNcC:
-    citations: 2
+    citations: 3
     title: Challenges in identifying Antarctic coastal polynyas in satellite observations and climate model output to support ecological climate change research
     year: '2026'
   eQVj_rMAAAAJ:roLk4NBRz8UC:
-    citations: 34
+    citations: 36
     title: Whale recovery and the emerging human-wildlife conflict over Antarctic krill
     year: '2024'
-  eQVj_rMAAAAJ:u-x6o8ySG0sC:
-    citations: 0
-    title: Naturally-occurring mussels as algal toxin biomonitors in San Francisco Bay
-    year: '2017'
   eQVj_rMAAAAJ:u5HHmVD_uO8C:
     citations: 0
     title: Dissolved Oxygen in South San Francisco Bay
