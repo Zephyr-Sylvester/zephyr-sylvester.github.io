@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-sea-ice-polynyas-and-productivity",
+        },{id: "post-predyct-now-has-a-home-on-the-web",
+        
+          title: "PREDYCT now has a home on the web",
+        
+        description: "The SCAR Krill Expert Group&#39;s PREDYCT action group has a new website documenting the programme&#39;s goals, working groups, and activities.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/predyct-website-launch/";
+          
+        },
+      },{id: "post-sea-ice-polynyas-and-productivity",
         
           title: "Sea Ice, Polynyas, and Productivity",
         
