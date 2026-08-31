@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-24'
+  last_updated: '2026-08-31'
 papers:
   eQVj_rMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -30,7 +30,7 @@ papers:
     title: Untangling the complexities of larval Antarctic krill overwintering success under climate change
     year: '2025'
   eQVj_rMAAAAJ:9yKSN-GCB0IC:
-    citations: 94
+    citations: 96
     title: Progress towards a representative network of Southern Ocean protected areas
     year: '2020'
   eQVj_rMAAAAJ:IjCSPb-OGe4C:
@@ -102,7 +102,7 @@ papers:
     title: Quantifying the value of Antarctic polynyas on the ecosystem from phytoplankton to penguins
     year: '2024'
   eQVj_rMAAAAJ:_kc_bZDykSQC:
-    citations: 1
+    citations: 2
     title: Modeled connectivity of Antarctic krill spawning and nursery grounds along the Western Antarctic Peninsula
     year: '2026'
   eQVj_rMAAAAJ:aqlVkmm33-oC:
@@ -110,7 +110,7 @@ papers:
     title: Defining Coastal Antarctic polynyas in satellite observations and climate model output to support ecological climate change research
     year: Unknown Year
   eQVj_rMAAAAJ:d1gkVwhDpl0C:
-    citations: 90
+    citations: 92
     title: 'Protecting Antarctica through Co-production of actionable science: Lessons from the CCAMLR marine protected area process'
     year: '2020'
   eQVj_rMAAAAJ:eQOLeE2rZwMC:
@@ -122,7 +122,7 @@ papers:
     title: Using Self Organizing Maps to Project Policy Relevant Changes in Coastal Antarctic Sea Ice in the Ross Sea
     year: '2022'
   eQVj_rMAAAAJ:kNdYIx-mwKoC:
-    citations: 8
+    citations: 9
     title: Adjusting the management of the Antarctic krill fishery to meet the challenges of the 21st century
     year: '2025'
   eQVj_rMAAAAJ:mVmsd5A6BfQC:
@@ -134,7 +134,7 @@ papers:
     title: Detecting climate signals in Southern Ocean krill growth habitat
     year: '2021'
   eQVj_rMAAAAJ:qxL8FJ1GzNcC:
-    citations: 4
+    citations: 5
     title: Challenges in identifying Antarctic coastal polynyas in satellite observations and climate model output to support ecological climate change research
     year: '2026'
   eQVj_rMAAAAJ:roLk4NBRz8UC:
@@ -150,6 +150,6 @@ papers:
     title: 'Observing change in pelagic animals as sampling methods shift: the case of Antarctic krill'
     year: '2024'
   eQVj_rMAAAAJ:zYLM7Y9cAGgC:
-    citations: 20
+    citations: 21
     title: 'Managing for climate resilient fisheries: Applications to the Southern Ocean'
     year: '2023'
